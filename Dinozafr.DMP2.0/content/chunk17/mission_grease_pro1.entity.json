@@ -1,0 +1,253 @@
+{
+	"tempHash": "00776CFC8C9E226F",
+	"tbluHash": "00075D1FDFF5A1F2",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"feedf5ebcd70d3c2": {
+			"parent": "fffffffffffffffe",
+			"name": "Gameplay",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedec44242d4f29": {
+			"parent": "feedf5ebcd70d3c2",
+			"name": "Environments",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed8677ca9b59a0": {
+			"parent": "feedf5ebcd70d3c2",
+			"name": "Items",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed3d38a5363c26": {
+			"parent": "feedf5ebcd70d3c2",
+			"name": "Enforcers Mumbai",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"exposedInterfaces": {
+				"ZOutfitProfessionEntity": "feedffdd4a810f74",
+				"ZKeywordEntity": "feedffdd4a810f74"
+			}
+		},
+		"feede2ed8ac7fc61": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Guard_LocalSecurity",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_localsecurity.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_localsecurity.entitytemplate].pc_entityblueprint"
+		},
+		"feedffdd4a810f74": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Worker_TextileWorker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_textileworker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_textileworker.entitytemplate].pc_entityblueprint"
+		},
+		"feeda17b7e38bd18": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Guard_QueensGuard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_queensguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_queensguard.entitytemplate].pc_entityblueprint"
+		},
+		"feede9f481573c89": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Guard_BollywoodBodyguard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_bollywoodbodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_bollywoodbodyguard.entitytemplate].pc_entityblueprint"
+		},
+		"feed60168c1fdc7b": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Civilian_Civilian",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_civilian_civilian.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_civilian_civilian.entitytemplate].pc_entityblueprint"
+		},
+		"feed3e7938f0007f": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard.entitytemplate].pc_entityblueprint"
+		},
+		"feed72b28d59b33d": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Worker_BollywoodCrew",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_bollywoodcrew.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_bollywoodcrew.entitytemplate].pc_entityblueprint"
+		},
+		"feeda87abe3e53a9": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Civilian_TouristCasual",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_civilian_touristcasual.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_civilian_touristcasual.entitytemplate].pc_entityblueprint"
+		},
+		"feed06289186aef7": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Worker_VanyaServant",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_vanyaservant.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_vanyaservant.entitytemplate].pc_entityblueprint"
+		},
+		"feed29182183411a": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Guard_QueensBodyGuard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_queensbodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_queensbodyguard.entitytemplate].pc_entityblueprint"
+		},
+		"feed1e4490ad3c3f": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Unique_Tailor",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_tailor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_tailor.entitytemplate].pc_entityblueprint"
+		},
+		"feedae758f9976cd": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Worker_Dancer",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_dancer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_dancer.entitytemplate].pc_entityblueprint"
+		},
+		"feedd447b7dfd144": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Guard_EliteThug",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_elitethug.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_elitethug.entitytemplate].pc_entityblueprint"
+		},
+		"feedaaf509debf27": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Worker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker.entitytemplate].pc_entityblueprint"
+		},
+		"feed8304eb7f143f": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Unique_LeadActor",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_leadactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_leadactor.entitytemplate].pc_entityblueprint"
+		},
+		"feed6cac17b5d0d2": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Guard_Thug",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_thug.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_guard_thug.entitytemplate].pc_entityblueprint"
+		},
+		"feed8f674e0227eb": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Worker_Dabbawalla",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_dabbawalla.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_dabbawalla.entitytemplate].pc_entityblueprint"
+		},
+		"feede1e3e5ad4408": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Unique_Artist",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_artist.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_artist.entitytemplate].pc_entityblueprint"
+		},
+		"feed94c0337085fa": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Mumbai_Worker_MetalWorker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_metalworker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_worker_metalworker.entitytemplate].pc_entityblueprint"
+		},
+		"feeda877fc6d4ed4": {
+			"parent": "feed3d38a5363c26",
+			"name": "Prof_Agent47",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "3b952db0f70dabf4",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "f4d9c3e54ba358f3",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "ea5b5682c537c337",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feeda877fc6d4ed4",
+						"feed60168c1fdc7b"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1e3e4ef64d955fb4",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "8d35d60602012525",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "7f989ffa58f34035",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "eb4b896efdb10d88",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "a73ccec97b9fdf89",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed8304eb7f143f"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+
+			],
+			"properties": {
+
+			}
+		}
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/mumbai/difficulty_hard_mumbai_mongoose.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

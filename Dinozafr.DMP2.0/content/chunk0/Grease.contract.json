@@ -1,0 +1,92 @@
+{
+    "SMF": {
+        "destinations": {
+            "addToDestinations": true
+        }
+    },
+    "Data": {
+        "EnableSaving": true,
+        "Objectives": [
+            {
+                "Comment": "---- Primary Target ----",
+                "Id": "1215bf5b-6dae-480d-9f97-d36d7a1fb3ac",
+                "Category": "primary",
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "20715eb7-e8b5-443c-a316-fa1edd0954e0"
+                    }
+                }
+            }
+        ],
+        "Bricks": [
+            "assembly:/_pro/scenes/missions/mumbai/mission_grease.brick"
+        ],
+        "DevOnlyBricks": [
+           
+        ],
+        "VR": [
+            {
+                "Quality": "base",
+                "Bricks": [
+                    "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                    "assembly:/_pro/scenes/missions/skunk/vr_overrides_ps4perf.brick"
+                ]
+            }
+        ],
+        "GameChangers": [],
+        "GameChangerReferences": [],
+        "GameDifficulties": [
+            {
+                "Difficulty": "easy",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/mumbai/mission_grease_easy.brick"
+                ]
+            },
+            {
+                "Difficulty": "normal",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "hard",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/mumbai/mission_grease_pro1.brick"
+                ]
+            }
+        ],
+        "Exits": [],
+        "Entrances": [
+            "a95703cb-091b-4d05-a2ee-3a70ade13590",
+            "5e6a6e2c-ee2c-40a7-9de5-d7fb8fbd8dcd",
+            "51145d77-882e-4be0-a471-73704497aa8b",
+            "724b24ef-e87f-4060-b7ed-5c315fb0f29f",
+            "8b1c3ba0-9c91-4b3e-96f9-7d3c8632b7c2",
+            "f1bb66b5-b446-4a00-a951-af7310e28566",
+            "774b7dec-ce57-4318-9dbd-f6d7fa39ef1d",
+            "f4659b56-65c3-4f4f-8f20-11d09af2f2d2",
+            "c7596e36-43ae-4e03-aa66-84f6a88f0cd3"
+        ],
+        "AgencyPickups": []
+    },
+    "Metadata": {
+        "Id": "d658bdf0-183d-463f-a479-235901912422",
+        "IsPublished": true,
+        "TileImage": "images/Grease/tile.jpg",
+        "CreationTimestamp": "2016-12-22T10:38:47.0308316+01:00",
+        "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+        "Title": "UI_CONTRACT_GREASE_TITLE",
+        "Description": "UI_CONTRACT_GREASE_DESC",
+        "CodeName_Hint": "Grease",
+        "Location": "LOCATION_MUMBAI",
+        "ScenePath": "assembly:/_pro/scenes/missions/Mumbai/scene_mongoose.entity",
+        "Type": "mission",
+        "Release": "2.9.x",
+        "RequiredUnlockable": "",
+        "Drops": [],
+        "Opportunities": [],
+        "Entitlements": [
+            "H2_LEGACY_STANDARD"
+        ]
+    },
+    "UserData": null
+}
