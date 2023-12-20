@@ -1,0 +1,136 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "3aa4388f-6f87-44a4-b3dc-ac015bf65264",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-0.9999999, 8.348331E-09, 0, -8.348331E-09, -0.9999999, 0, 0, 0, 1, 111.1686, -20.87931, 60.1072"
+        },
+        {
+            "id": "61f8efe4-7e9e-4add-b69e-bf40213209c2",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 101.6109, -56.54265, 49.69656"
+        },
+        {
+            "id": "c2302bad-8e77-4d72-88c2-36ac1ad8c1b4",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-1E-06, 1, 0, -1, -1E-06, 0, 0, 0, 1, 105.542, -14.06516, 44.49623"
+        },
+        {
+            "id": "57e5073f-b4e6-4717-a8db-cbc94cb51087",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.92388, -0.382683, 0, 0.382683, 0.92388, 0, 0, 0, 1, 116.1272, -80.77213, 60.12858"
+        },
+        {
+            "id": "83f4f967-71bb-48a1-bc53-1e472a9a1b3e",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0, -1, 0, 1, 0, 0, 0, 0, 1, 140.6041, -15.69343, 49.69613"
+        },
+        {
+            "id": "3d59f7ff-11b5-4498-925d-d3a2ea148a4e",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0, -1, 0, 1, 0, 0, 0, 0, 1, 58.46804, -8.592628, 49.69666"
+        },
+        {
+            "id": "b33ae290-5ea1-4229-b41f-680a76d40320",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 108.9214, -98.72111, 49.69686"
+        },
+        {
+            "id": "9ddbd515-2519-4c16-98aa-0f87af5d8ef5",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.613967, 0.789332, 0, -0.789332, 0.613967, 0, 0, 0, 1, 20.61463, -21.65446, 44.7224"
+        }
+    ],
+    "Exits": [
+        {
+            "id": "fcb12167-1f43-42d5-b964-77fabe2d53d5",
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 54.69236, 18.11338, 44.50316",
+            "RequireKey": false
+        },
+        {
+            "id": "f227d7c6-6094-41ed-902f-b19a06513466",
+            "WorldTransform": "0.303953, -0.952687, 0, 0.952687, 0.303953, 0, 0, 0, 1, 136.7304, -37.35322, 49.69613",
+            "RequireKey": true
+        },
+        {
+            "id": "1efc13bc-350f-4e16-b446-f42e2b8cce37",
+            "WorldTransform": "-1E-06, 1, 0, -1, -1E-06, 0, 0, 0, 1, -8.873602, -39.45428, 44.62729",
+            "RequireKey": true
+        }
+    ],
+    "AgencyPickups": [
+        {
+            "id": "9b4ad6ad-9eed-4014-bd72-6ce4e060e24e",
+            "WorldTransform": "0, 0, -1, 1, 0, 0, 0, -1, 0, 99.98723, -76.89659, 50.41479",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "06b72e0a-6819-47e5-b427-aa90232afd16",
+            "WorldTransform": "1E-06, 0, -1, -1, 0, -1E-06, 0, 1, 0, 114.4928, -89.70312, 55.28731",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "7623c0ab-7c75-42c3-8839-4bffb15e9f9b",
+            "WorldTransform": "-0.000693, 1, 0, -1, -0.000693, 0, 0, 0, 1, 98.5096, 9.119802, 55.15799",
+            "AllowOutfits": false,
+            "AllowLargerItems": false,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "495e7647-9dfe-4e11-bd34-38c5f021068a",
+            "WorldTransform": "-0.068476, -0.997313, -0.026024, 0.311832, -0.046174, 0.949015, -0.947667, 0.05687, 0.314156, 72.48022, -10.19072, 65.46661",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "08c53143-6bc9-4bf7-a93d-23e123b6cb24",
+            "WorldTransform": "0.914926, -0.403621, 0, 0.403621, 0.914926, 0, 0, 0, 1, 88.14581, -62.2632, 65.66661",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "dcd500fe-ec4d-4b93-8866-a2ea35977afd",
+            "WorldTransform": "-0.999893, 0.000281, 0.014627, 0.01463, 0.019137, 0.99971, 1E-06, 0.999817, -0.019139, 118.4095, -68.2416, 44.94783",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "be1a657b-81b0-4909-b5e3-c93324d1decb",
+            "WorldTransform": "1, 0, 0, 0, 0, 1, 0, -1, 0, 106.8093, -20.60715, 49.89837",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "5bca7bb1-6aee-4d8f-96db-102096b99921",
+            "WorldTransform": "0.99532, 0.096634, -5E-06, -0.009441, 0.097294, 0.995211, 0.096171, -0.990553, 0.097751, 71.89705, -99.70588, 49.87695",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": false
+        },
+        {
+            "id": "9d016e48-d05b-45ce-b58a-bd61e930ac6d",
+            "WorldTransform": "-0.999923, -0.01241, 0, 0.01241, -0.999923, 0, 0, 0, 1, 122.6803, -79.58196, 60.87905",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": true
+        }
+    ]
+}

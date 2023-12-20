@@ -1,0 +1,57 @@
+{
+    "20715eb7-e8b5-443c-a316-fa1edd0954e0": {
+        "CharacterSetIndex": 0,
+        "Description": "GREASE_DESC_ACTOR",
+        "Description_LOC": "GREASE_DESC_ACTOR",
+        "ID_": "20715eb7-e8b5-443c-a316-fa1edd0954e0",
+        "Image": "images/actors/grease_Layton_Caine.jpg",
+        "Name": "Layton Caine",
+        "Outfit": "f97447b3-502c-416e-ad36-0a8ea085ada2",
+        "OutfitVariationIndex": 5,
+        "Tile": "images/actors/default_target.png"
+    },
+    "4abb63fc-1a41-4cd0-b584-79e5d9fc2909":{
+        "CharacterSetIndex": 0,
+        "Description": "PLACEHOLDER",
+        "Description_LOC": "PLACEHOLDER",
+        "ID_": "4abb63fc-1a41-4cd0-b584-79e5d9fc2909",
+        "Image": "images/actors/actor_856f9d1e-3094-40d7-bc58-6165eef191ac_11_0_0.jpg",
+        "Name": "Mumbai Worker Killer",
+        "Outfit": "856f9d1e-3094-40d7-bc58-6165eef191ac",
+        "OutfitVariationIndex": 11,
+        "Tile": "images/actors/default_target.png"
+    },
+    "4d6a77e9-4814-4e2c-8792-cf09d443bcc6":{
+        "CharacterSetIndex": 0,
+        "Description": "PLACEHOLDER",
+        "Description_LOC": "PLACEHOLDER",
+        "ID_": "4d6a77e9-4814-4e2c-8792-cf09d443bcc6",
+        "Image": "images/actors/default_target.png",
+        "Name": "Prem Ajit Anand",
+        "Outfit": "e9dffefc-e896-46e4-b158-1b401b015764",
+        "OutfitVariationIndex": 2,
+        "Tile": "images/actors/default_target.png"
+    },
+    "f6225115-be6b-47e5-8d6d-b2f8d4d05255":{
+        "CharacterSetIndex": 0,
+        "Description": "PLACEHOLDER",
+        "Description_LOC": "PLACEHOLDER",
+        "ID_": "f6225115-be6b-47e5-8d6d-b2f8d4d05255",
+        "Image": "images/actors/default_target.png",
+        "Name": "Saral Ratnam",
+        "Outfit": "06fb2890-e820-45f2-aef3-0cb7d0528ee1",
+        "OutfitVariationIndex": 5,
+        "Tile": "images/actors/default_target.png"
+    },
+    "06225115-be6b-47e5-8d6d-b2f8d4d05255":{
+        "CharacterSetIndex": 0,
+        "Description": "PLACEHOLDER",
+        "Description_LOC": "PLACEHOLDER",
+        "ID_": "06225115-be6b-47e5-8d6d-b2f8d4d05255",
+        "Image": "images/actors/default_target.png",
+        "Name": "Ninad Manas",
+        "Outfit": "06fb2890-e820-45f2-aef3-0cb7d0528ee1",
+        "OutfitVariationIndex": 3,
+        "Tile": "images/actors/default_target.png"
+    }
+}

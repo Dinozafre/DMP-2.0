@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "[assembly:/localization/hitman6/conversations/boring_dialog.sweetdialog].pc_dialogevent",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer": {
+                "type": "WavFile",
+                "wavName": "incu_recurack_cross_cross_002",
+                "soundtag": "In-world_Mission_Important",
+                "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/cross/incu_recurack_cross_cross_002.wav].pc_wes",
+                "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/cross/incu_recurack_cross_cross_002.animset].pc_animset",
+                "languages": {
+                    "en": "//(0,15)\\\\This shit is getting boring, boring!",
+                    "fr": "//(0,15)\\\\This shit is getting boring, boring!",
+                    "it": "//(0,15)\\\\This shit is getting boring, boring!",
+                    "de": "//(0,15)\\\\This shit is getting boring, boring!",
+                    "es": "//(0,15)\\\\This shit is getting boring, boring!",
+                    "ru": "//(0,15)\\\\Так скучно! Скучно!.",
+                    "cn": "//(0,15)\\\\This shit is getting boring, boring!",
+                    "tc": "//(0,15)\\\\This shit is getting boring, boring!",
+                    "jp": "//(0,15)\\\\This shit is getting boring, boring!"
+                }
+    }
+}
