@@ -22,9 +22,13 @@
 			"UI_INTEL_PHONE_DESC": "On the phone, there is a message from an unknown user. The message says:\n\"Leighton Kane will come to you. He wants to step away from the criminal life. If threats don't work, you can apply force.\"\n",
 			"UI_MISSION_GREASE_TITLE_HUD": "The Celebrity",
 			"UI_CONTRACT_ESCAPE_NAME": "Retrive Data",
-			"UI_CONTRACT_ESCAPE_OBJECTIVE": "Placeholder value",
+			"UI_CONTRACT_ESCAPE_OBJECTIVE": "You’re on the hunt, find out who ordered you and escape.",
 			"UI_CONTRACT_ESCAPE_TITLE": "The Escape",
-			"UI_CONTRACT_ESCAPE_DESC": "Placeholder value"
+			"UI_CONTRACT_ESCAPE_DESC": "Placeholder value",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_NAME": "Scanninig Laptop",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_DESC": "Exporting data",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_NAME": "Data extracted",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_DESC": "Laptop scanned"
 		},
 		"french": {},
 		"italian": {},
@@ -38,7 +42,12 @@
 			"UI_INTEL_PHONE_NAME": "Телефон Дельгадо",
 			"UI_MISSION_GREASE_TITLE_HUD": "Знаменитость",
 			"UI_CONTRACT_ESCAPE_TITLE": "Побег",
-			"UI_CONTRACT_ESCAPE_NAME": "Заберите данные"
+			"UI_CONTRACT_ESCAPE_NAME": "Заберите данные",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_NAME": "Сканирование ноутбука",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_DESC": "Экспорт данных",
+			"UI_CONTRACT_ESCAPE_OBJECTIVE": "За вами обьявленна охота, узнайте кто заказал вас и сбегите.",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_NAME": "Данные собраны",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_DESC": "Ноутбук сканирован"
 		},
 		"chineseSimplified": {
 			"UI_CONTRACT_GREASE_TITLE": "名流",
@@ -59,7 +68,9 @@
 		"japanese": {}
 	},
 	"loadAfter": [],
-	"localisedLines": {},
+	"localisedLines": {
+
+	},
 	"packagedefinition": [
 		{
 			"type": "entity",
@@ -80,15 +91,24 @@
 			"type": "entity",
 			"partition": "bangkok",
 			"path": "[assembly:/_pro/scenes/missions/bangkok/mission_escape.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "bangkok",
+			"path": "[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].entitytemplate"
 		}
 	],
 	"dependencies": [
 		"00F00922AADE2E69",
 		"00EE10333D3E7DBF",
+		"004C06BE00B43E75",
+        "003ECA231031F074",
+		"0042540ECB00E00D",
+		"00E07B3445356275",
 		{
 			"runtimeID": "00C749244D830BC6",
 			"toChunk": 17,
-			"comment": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entityblueprint"		
+			"comment": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entityblueprint"
 		},
 		{
 			"runtimeID": "00EDB1AB915B208B",
