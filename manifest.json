@@ -105,16 +105,8 @@
         "003ECA231031F074",
 		"0042540ECB00E00D",
 		"00E07B3445356275",
-		{
-			"runtimeID": "00C749244D830BC6",
-			"toChunk": 17,
-			"comment": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entityblueprint"
-		},
-		{
-			"runtimeID": "00EDB1AB915B208B",
-			"toChunk": 17,
-			"comment": "[assembly:/_pro/scenes/missions/miami/outfits_miami.brick].pc_entitytype"
-		},
+		"00B8A16A8C51F95F",
+		"0059446AC129064E",
 		{
 			"runtimeID": "00B8E5B83D2CE709",
 			"toChunk": 17,
