@@ -1,0 +1,87 @@
+{
+	"tempHash": "003B11ABF1E9820F",
+	"tbluHash": "00B5C51BC5AD2FB9",
+	"rootEntity": "feed724444b83a2b",
+	"entities": {
+		"feed724444b83a2b": {
+			"parent": null,
+			"name": "Prof_Paris_Noel_Unique_Thief02",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"propertyAliases": {
+				"m_aHolders": [
+					{
+						"originalProperty": "m_aHolders",
+						"originalEntity": "feed8329afb70b66"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZKeywordEntity": "feed8329afb70b66",
+				"ZOutfitProfessionEntity": "feeda639c80d232b"
+			}
+		},
+		"feeda639c80d232b": {
+			"parent": "feed724444b83a2b",
+			"name": "OutfitProfession",
+			"factory": "[modules:/zoutfitprofessionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitprofessionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rKeywordProfession": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8329afb70b66",
+					"postInit": true
+				}
+			}
+		},
+		"feed8329afb70b66": {
+			"parent": "feed724444b83a2b",
+			"name": "Keyword_PARIS_NOEL_UNIQUE_THIEF2",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "PROF_PARIS_NOEL_UNIQUE_THIEF2"
+				},
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed724444b83a2b",
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
