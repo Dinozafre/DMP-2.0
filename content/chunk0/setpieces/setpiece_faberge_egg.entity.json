@@ -1,0 +1,106 @@
+{
+	"tempHash": "0036B100C5FCF5D4",
+	"tbluHash": "00968276D3E4E34C",
+	"rootEntity": "feed31cf97c4ad5f",
+	"entities": {
+		"feed31cf97c4ad5f": {
+			"parent": null,
+			"name": "SetPiece_Faberge_Egg",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint"
+		},
+		"feed1fe76e5b6b5f": {
+			"parent": "feed31cf97c4ad5f",
+			"name": "ItemKey_Melee_Faberge_Egg",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "c88a59cd-d5cc-4435-a3f1-2312abcc817e"
+				}
+			}
+		},
+		"feed35d616e00dfa": {
+			"parent": "feed31cf97c4ad5f",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.07134599983692169,
+							"y": 0,
+							"z": -0.21065600216388702
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed31cf97c4ad5f"
+				},
+				"m_ePhysicsMode": {
+					"type": "ZItemSpawner.EPhysicsMode",
+					"value": "EPM_KINEMATIC"
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1fe76e5b6b5f"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bUsePlacementAttach": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"outputCopying": {
+				"OnPickup": {
+					"FabergeEggPickup": [
+						"feed31cf97c4ad5f"
+					]
+				},
+				"OnItemDestroyed": {
+					"FabergeEggDestroyed": [
+						"feed31cf97c4ad5f"
+					]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
