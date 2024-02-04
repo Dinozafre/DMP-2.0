@@ -1,0 +1,36 @@
+{
+    "SMF": {
+        "destinations": {
+            "addToDestinations": true,
+            "peacockIntegration": true
+            
+        }
+    },
+    "Data": {
+        "Objectives": [
+        ],
+        "Bricks":["assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick"]
+
+    },
+    "Metadata": {
+        "Id": "2c8f8fd1-94df-4e69-b5db-56a8382cb228",
+        "IsPublished": true,
+        "TileImage": "images/Escape/title.jpg",
+        "CreationTimestamp": "2016-12-22T10:38:47.0308316+01:00",
+        "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+        "Title": "UI_CONTRACT_BEAVER_TITLE",
+        "Description": "UI_CONTRACT_BEAVER_DESC",
+        "CodeName_Hint": "Beaver",
+        "Location": "LOCATION_COASTALTOWN",
+        "ScenePath": "assembly:/_PRO/Scenes/Missions/CoastalTown/Mission01.entity",
+        "Type": "mission",
+        "Release": "2.9.x",
+        "RequiredUnlockable": "",
+        "Drops": [],
+        "Opportunities": [],
+        "Entitlements": [
+            "H1_LEGACY_STANDARD"
+        ]
+    },
+    "UserData": null
+}
