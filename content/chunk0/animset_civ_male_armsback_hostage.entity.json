@@ -1,0 +1,91 @@
+{
+	"tempHash": "000276B51BD1FB85",
+	"tbluHash": "00D5D681F4A42C62",
+	"rootEntity": "f51da38212399c9d",
+	"entities": {
+		"fa8964554eebdbc8": {
+			"parent": "f51da38212399c9d",
+			"name": "VariationResource",
+			"factory": "[modules:/zvariationresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zvariationresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_VariationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/animations/animationdatabases/hm5_animations.aset?/vri_civ_male_armsback_hostage.asva].pc_asva",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"619e6a1207ec095e": {
+			"parent": "f51da38212399c9d",
+			"name": "React",
+			"factory": "[modules:/zvariationresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zvariationresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_VariationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/animations/animationdatabases/actor_reactions.aset?/vri_civ_male_armsback_hostage.asva].pc_asva",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"f51da38212399c9d": {
+			"parent": null,
+			"name": "AnimSet_Civ_Male_ArmsBack_Hostage",
+			"factory": "[modules:/znpcanimationsetdefinition.class].pc_entitytype",
+			"blueprint": "[modules:/znpcanimationsetdefinition.class].pc_entityblueprint",
+			"properties": {
+				"m_aLocoAnimDBs": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"fa8964554eebdbc8"
+					]
+				},
+				"m_aReactAnimDBs": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"619e6a1207ec095e"
+					]
+				},
+				"m_eType": {
+					"type": "EAnimSetType",
+					"value": "EAST_DEFAULT"
+				},
+				"m_eAnimSetEmotionState": {
+					"type": "EAnimSetState",
+					"value": "EASES_DEFAULT"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
