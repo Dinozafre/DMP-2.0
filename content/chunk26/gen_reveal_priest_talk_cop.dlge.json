@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "[assembly:/localization/hitman6/conversations/ai/priest_male/gen_reveal_priest_talk_cop.sweetdialog].pc_dialogevent",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer": {
+                "type": "WavFile",
+                "wavName": "gen_reveal_priest_talk_cop_004",
+                "soundtag": "In-world_Mission_Important",
+                "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/civmale08/ar_victimack_civmale08_civmale08_004.wav].pc_wes",
+                "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/civmale08/ar_victimack_civmale08_civmale08_004.animset].pc_animset",
+                "languages": {
+                    "en": "//(0,3)\\\\Hey! I've got him! He punched me in the back of the head and ran like a little girl!",
+                    "fr": "//(0,3)\\\\Hey! I've got him! He punched me in the back of the head and ran like a little girl!",
+                    "it": "//(0,3)\\\\Hey! I've got him! He punched me in the back of the head and ran like a little girl!",
+                    "de": "//(0,3)\\\\Hey! I've got him! He punched me in the back of the head and ran like a little girl!",
+                    "es": "//(0,3)\\\\Hey! I've got him! He punched me in the back of the head and ran like a little girl!",
+                    "ru": "//(0,3)\\\\Привет! Он у меня есть! Он ударил меня по затылку и побежал, как маленькая девочка!",
+                    "cn": "//(0,3)\\\\嘿，我逮到他了！他朝我后脑勺打了一拳，然后像个小姑娘似的跑了！",
+                    "tc": "//(0,3)\\\\嗨！我抓到他了！他一拳打在我的後腦勺上，然後像個小女孩一樣跑了！",
+                    "jp": "//(0,3)\\\\Hey! I've got him! He punched me in the back of the head and ran like a little girl!"
+                }
+    }
+}

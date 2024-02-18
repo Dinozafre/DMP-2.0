@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "[assembly:/localization/hitman6/conversations/marrakech/6000_coup/6000_story/dr6184_officer47cellguards.sweetdialog?/dr6184_officer47cellguards_47_001.sweetdialogitem].pc_dialogevent",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer": {
+        "type": "WavFile",
+        "wavName": "dr6184_officer47cellguards_47_001",
+        "soundtag": "In-world_Maincharacter",
+        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/marrakech/6000_coup/6000_story/dr6184_officer47cellguards_47_001.wav].pc_wes",
+        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/marrakech/6000_coup/6000_story/dr6184_officer47cellguards_47_001.animset].pc_animset",
+        "languages": {
+            "en": "//(0,30)\\\\You're dismissed. General Zaydan's orders.",
+            "fr": "//(0,30)\\\\Tu peux partir. Ordre du général Zaydan.",
+            "it": "//(0,30)\\\\Puoi andare. Ordini del generale Zaydan.",
+            "de": "//(0,30)\\\\Sie können gehen. Befehl von General Zaydan.",
+            "es": "//(0,30)\\\\Vete. Órdenes del general Zaydan.",
+            "ru": "//(0,30)\\\\Ты свободен. Приказ генерала Зейдана!",
+            "cn": "//(0,30)\\\\解散。泽丹将军的命令。",
+            "tc": "//(0,30)\\\\解散。扎伊丹將軍的命令。",
+            "jp": "//(0,30)\\\\行っていい。ゼイダン将軍の指示だ。"
+        }
+    }
+}

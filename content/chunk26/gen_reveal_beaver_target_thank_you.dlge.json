@@ -1,0 +1,23 @@
+{
+    "hash": "[assembly:/localization/hitman6/conversations/ai/target_beaver/gen_reveal_beaver_target_thank_you.sweetdialog].pc_dialogevent",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer": {
+        "type": "WavFile",
+        "wavName": "gen_reveal_beaver_target_thank_you",
+        "soundtag": "In-world_Mission_Important",
+        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27155_blakecassidytalk_charlesblake_010.wav].pc_wes",
+        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27155_blakecassidytalk_charlesblake_010.animset].pc_animset",
+                "languages": {
+                    "en": "//(0,30)\\\\Thank you! Thank you very much!",
+                    "fr": "//(0,30)\\\\Merci ! Merci beaucoup, vraiment !",
+                    "it": "//(0,30)\\\\Grazie! Grazie infinite!",
+                    "de": "//(0,30)\\\\Vielen Dank! Ganz herzlichen Dank!",
+                    "es": "//(0,30)\\\\¡Gracias! ¡Muchísimas gracias!",
+                    "ru": "//(0,30)\\\\Спасибо! Огромное вам спасибо!",
+                    "cn": "//(0,30)\\\\谢谢你！太感谢了！",
+                    "tc": "//(0,30)\\\\謝謝你！太感謝了！",
+                    "jp": "//(0,30)\\\\ありがとう！本当にありがとうございます！"
+                }
+    }
+}
