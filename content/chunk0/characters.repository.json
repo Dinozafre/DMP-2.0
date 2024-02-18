@@ -53,5 +53,16 @@
         "Outfit": "06fb2890-e820-45f2-aef3-0cb7d0528ee1",
         "OutfitVariationIndex": 3,
         "Tile": "images/actors/default_target.png"
+    },
+    "66863ca1-d447-4aa5-a3f3-bf9f70532aa9":{
+        "CharacterSetIndex": 1,
+        "Description": "PLACEHOLDER",
+        "Description_LOC": "PLACEHOLDER",
+        "ID_": "66863ca1-d447-4aa5-a3f3-bf9f70532aa9",
+        "Image": "images/actors/beaver_target.png",
+        "Name": "Benjamin 'Red Cocaine' Kilduff",
+        "Outfit": "a383e616-6882-47c2-ac1d-c4085adfb4fb",
+        "OutfitVariationIndex": 4,
+        "Tile": "images/actors/default_target.png"
     }
 }
