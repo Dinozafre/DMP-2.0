@@ -55,27 +55,6 @@
 00EFA1A17AD491EC.TEMP,[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].pc_entitytemplate
 005CFD738D683F35.TBLU,[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].pc_entityblueprint
 00CD84F552454D99.TEMP,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_gamechanger_unique_hm_proximity_s3_cx.entitytemplate].pc_entitytype
-002917447C4168A1.TBLU,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_gamechanger_unique_hm_proximity_s3_cx.entitytemplate].pc_entityblueprint0C4C929.wav].pc_wes
-00276C691A4D57B3.TEMP,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_general_laptop.entitytemplate].pc_entitytype
-0053D080FAA2B004.TBLU,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_general_laptop.entitytemplate].pc_entityblueprint
-00CA2F2C66E5BF80.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_propane.entitytemplate].pc_entitytype
-00A8482B7148EF99.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_propane.entitytemplate].pc_entityblueprint
-008F317FC6E3D1F5.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_pride_saber.entitytemplate].pc_entitytype
-00BE9F3148209BB9.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_pride_saber.entitytemplate].pc_entityblueprint
-00B67027D78624B7.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_inspectcrates.entitytemplate].pc_entitytype
-00C117616ECF1455.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_inspectcrates.entitytemplate].pc_entityblueprint
-0036B100C5FCF5D4.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_faberge_egg.entitytemplate].pc_entitytype
-00968276D3E4E34C.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_faberge_egg.entitytemplate].pc_entityblueprint
-0092914701F764C4.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_intel_object_laptop_name.sweetline].pc_sweetline
-00BA6C16F444B734.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_intel_object_laptop_desc.sweetline].pc_sweetline
-003CECA4EE16ED55.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_complete_intel_object_laptop_name.sweetline].pc_sweetline
-00337577ACB68ECD.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_complete_intel_object_laptop_desc.sweetline].pc_sweetline
-00E3062CC5DE13BC.TEMP,[assembly:/_pro/scenes/missions/bangkok/override_ambient_kitchen.brick].pc_entitytype
-00F36FA81928E248.TBLU,[assembly:/_pro/scenes/missions/bangkok/override_ambient_kitchen.brick].pc_entityblueprint
-008AC774E9FF098D.JSON,(planning_contract) tiger_upload
-00EFA1A17AD491EC.TEMP,[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].pc_entitytemplate
-005CFD738D683F35.TBLU,[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].pc_entityblueprint
-00CD84F552454D99.TEMP,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_gamechanger_unique_hm_proximity_s3_cx.entitytemplate].pc_entitytype
 002917447C4168A1.TBLU,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_gamechanger_unique_hm_proximity_s3_cx.entitytemplate].pc_entityblueprint
 003B11ABF1E9820F.TEMP,[assembly:/_pro/design/actor/profession.template?/prof_paris_noel_unique_thief02.entitytemplate].pc_entitytype
 00B5C51BC5AD2FB9.TBLU,[assembly:/_pro/design/actor/profession.template?/prof_paris_noel_unique_thief02.entitytemplate].pc_entityblueprint
@@ -97,3 +76,11 @@
 0008229D6BF68734.TBLU,[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entityblueprint
 00EC2A60FA5257A1.TEMP,[assembly:/_pro/scenes/missions/bangkok/override_hard.brick].pc_entitytype
 0035E0A5227326DB.TBLU,[assembly:/_pro/scenes/missions/bangkok/override_hard.brick].pc_entityblueprint
+00ADB944CE515632.TEMP,[assembly:/_pro/scenes/missions/coastaltown/beaver.entity].pc_entitytemplate
+0043EA41A8D6A1FB.TBLU,[assembly:/_pro/scenes/missions/coastaltown/beaver.entity].pc_entityblueprint
+004508887120E527.JSON,(planning_contract) beaver
+00C27B4011AF9421.TEMP,[assembly:/_pro/design/actor/profession.template?/prof_hero_fox_reward_hero_raveroutfit.entitytemplate].pc_entitytype
+00CF45997AEC8A13.TBLU,[assembly:/_pro/design/actor/profession.template?/prof_hero_fox_reward_hero_raveroutfit.entitytemplate].pc_entityblueprint
+0072A14EB2232754.DLGE,[assembly:/localization/hitman6/conversations/ai/caruso/gen_reveal_сhief_song.sweetdialog].pc_dialogevent
+0052477FEEDE0453.DLGE,[assembly:/localization/hitman6/conversations/ai/caruso/gen_reveal_сhief_peaceful.sweetdialog].pc_dialogevent
+00B6305D92AC9B8C.DLGE,[assembly:/localization/hitman6/conversations/ai/priest_male/gen_reveal_priest_talk_cop.sweetdialog].pc_dialogevent
