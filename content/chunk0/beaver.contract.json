@@ -7,27 +7,127 @@
         }
     },
     "Data": {
+        "EnableExits": {
+            "$eq": [
+                "$f3ef4005-b53a-4074-be4e-f117c4211ae2",
+                "$88ae4c81-d61e-41f3-ac53-a749e46ca726",
+                "Completed"
+            ]
+        },
         "Objectives": [
+            {
+                "Id": "f3ef4005-b53a-4074-be4e-f117c4211ae2",
+                "Category": "primary",
+                "ObjectiveType": "setpiece",
+                "IsHidden": true,
+                "ForceShowOnLoadingScreen": true,
+                "Image": "images/actors/beaver_target.png",
+                "BriefingName": "$loc UI_CONTRACT_BEAVER_NAME_TARGET_01",
+                "BriefingText": "$loc UI_CONTRACT_BEAVER_NAME_TARGET_01",
+                "LongBriefingText": "$loc UI_BEAVER_DESCRIPTION",
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_BEAVER_HUD_TARGET_01"
+                },
+                "DisplayAsKillObjective": true,
+                "Type": "statemachine",
+                "Definition": {
+                    "Context": {
+                        "Targets": [
+                            "66863ca1-d447-4aa5-a3f3-bf9f70532aa9"
+                        ]
+                    },
+                    "States": {
+                        "Start": {
+                            "TargetDead": {
+                                "Transition": "Success"
+                            },
+                            "TargetDeadElectric": {
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "Id": "88ae4c81-d61e-41f3-ac53-a749e46ca726",
+                "Category": "primary",
+                "ForceShowOnLoadingScreen": true,
+                "ExcludeFromScoring": true,
+                "Image": "images/Beaver/pickup_cocaine.jpg",
+                "BriefingName": "$loc UI_CONTRACT_BEAVER_Cocaine_01",
+                "BriefingText": "$loc UI_CONTRACT_BEAVER_Cocaine_01",
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_BEAVER_Cocaine_01",
+					"iconType": 17
+                },
+                "IsHidden": true,
+                "ObjectiveType": "custom",
+                "Type": "statemachine",
+                "Definition": {
+                    "States": {
+                        "Start": {
+                            "PickUpCocaine": {
+                                "Transition": "Success"
+                            },
+                            "DestroyedCocaine":{
+                                "Transition": "Failure"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "_comment": "------ HIDDEN -----",
+                "Category": "primary",
+                "Definition": {
+                    "States": {
+                        "-": {
+                            "-": {
+                               "Transition": "Success"
+                            }
+                        },
+                        "Success": {
+                            "DestroyedCocaine": {
+                                "Transition": "Failure"
+                            } 
+                        }
+                    }
+                },
+                "ExcludeFromScoring": true,
+                "Id": "68930773-003c-4b4f-a5cc-61f13c5e8b77",
+                "IgnoreIfInactive": true,
+                "IsHidden": true,
+                "ObjectiveType": "custom",
+                "Type": "statemachine"
+            }
         ],
-        "Bricks":["assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick"]
+        "Bricks":[
+            "assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick"
+        ],
+        "Entrances": [
+            "a73d92c4-cd4b-4bd2-9485-943aa613a79c",
+            "c113315d-ffcc-4878-9e70-bb35aadf0211",
+            "4970aae5-e4c1-4d5c-a66a-0fc06616211b",
+            "1c386bb9-aead-42c0-b604-ad560056ddf4",
+            "c27f76ca-ed71-4b2d-9b9d-693875df830c"
+        ]
 
     },
     "Metadata": {
         "Id": "2c8f8fd1-94df-4e69-b5db-56a8382cb228",
         "IsPublished": true,
-        "TileImage": "images/Escape/title.jpg",
+        "TileImage": "images/Beaver/title.jpg",
         "CreationTimestamp": "2016-12-22T10:38:47.0308316+01:00",
         "CreatorUserId": "00000000-0000-0000-0000-000000000000",
         "Title": "UI_CONTRACT_BEAVER_TITLE",
         "Description": "UI_CONTRACT_BEAVER_DESC",
         "CodeName_Hint": "Beaver",
         "Location": "LOCATION_COASTALTOWN",
-        "ScenePath": "assembly:/_PRO/Scenes/Missions/CoastalTown/Mission01.entity",
+        "ScenePath": "assembly:/_pro/scenes/missions/coastaltown/mission01.entity",
         "Type": "mission",
         "Release": "2.9.x",
         "RequiredUnlockable": "",
-        "Drops": [],
-        "Opportunities": [],
+        "OpportunitiesDisabled": true,
         "Entitlements": [
             "H1_LEGACY_STANDARD"
         ]

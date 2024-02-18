@@ -1,0 +1,37 @@
+{ 
+	"file": "0086B66F8187325D",
+    "patch": [
+		{
+			"op": "add",
+			"path": "/Contracts/d658bdf0-183d-463f-a479-235901912422",
+			"value": {
+				"_NOTE": "Escape",
+				"NextItems": [
+					{
+						"CategoryType": "NextMission",
+						"ContentType": "Contract",
+						"Content": {
+							"Id": "afba7d2c-0a57-4481-bf91-2a3019b66729"
+						}
+					}
+				]
+			}
+		},
+		{
+			"op": "add",
+			"path": "/Contracts/afba7d2c-0a57-4481-bf91-2a3019b66729",
+			"value": {
+				"_NOTE": "Beaver",
+				"NextItems": [
+					{
+						"CategoryType": "NextMission",
+						"ContentType": "Contract",
+						"Content": {
+							"Id": "2c8f8fd1-94df-4e69-b5db-56a8382cb228"
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "file": "0093B70B9E704CE0",
+    "patch": [
+    { 
+        "op": "add",
+        "path": "/4/Subgroups/-",
+        "value":            {
+            "Name": "UI_MENU_PAGE_DMP2_TITLE",
+            "Image": "",
+            "Type": "campaign",
+            "BackgroundImage": "images/story/dmp2_story.png",
+            "StoryData": [
+                {
+                    "Type": "Mission",
+                    "Id": "d658bdf0-183d-463f-a479-235901912422",
+                    "_comment": "Grease"
+                },
+                {
+                    "Type": "Mission",
+                    "Id": "afba7d2c-0a57-4481-bf91-2a3019b66729",
+                    "_comment": "Escape"
+                },
+                {
+                    "Type": "Mission",
+                    "Id": "2c8f8fd1-94df-4e69-b5db-56a8382cb228",
+                    "_comment": "Beaver"
+                }
+            ]
+        }
+    }]
+}
