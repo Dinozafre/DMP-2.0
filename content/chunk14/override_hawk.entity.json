@@ -1,0 +1,115 @@
+{
+	"tempHash": "00696A1FABC6D3A7",
+	"tbluHash": "0094BC87E73847C6",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "eda160210d5ac627",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "f9ee1a62205c2f1c",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "913ce878017fe73e",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "819514f9c166d1af",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "782598c8ce801df1",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "79a69595aed0b90e",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "8ae38cdfb06920dc",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "3b8a642da74a321b",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "9d8a6f91c309d50b",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "a1f3595ccb245010",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "50f32c75a8040ba1",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				},
+				{
+					"ref": "95a82d052bf1bd16",
+					"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eGlowOverride": {
+					"type": "ERenderGlowTypes",
+					"value": ""
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "ea1676b5cc1b5a8d",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "98ee128f039b08a3",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "9ed86096784946f2",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "89d195a73a2d7eb2",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "355eebbc0cb6a4a6",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
