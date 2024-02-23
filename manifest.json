@@ -1,12 +1,6 @@
 {
 	"version": "1.0.0",
 	"id": "Dinozafr.DMP2",
-	"name": "DMP 2.0",
-	"description": "dinozafr mission Pack 2.0 is here, new missions, new characters and more!",
-	"authors": [
-		"Dinozafr"{
-	"version": "1.0.0",
-	"id": "Dinozafr.DMP2",
 	"name": "DMP 2",
 	"description": "Pack 2 is here, new missions, new characters and more!",
 	"authors": [
@@ -39,10 +33,13 @@
 			"UI_CONTRACT_BEAVER_TITLE": "Crimson Cocaine",
 			"UI_CONTRACT_BEAVER_DESC": "Good morning, 47th.\n\nConsidering that you were able to eliminate our partner, I believe that completing the test assignment will not be a problem for you.\n\nA group of junkies from Sapienza bought a large batch of cocaine from our cartel. They betrayed us during the deal.\n\nYour task is to find the product and deal with the guys themselves. Remember, the remote chip can be activated with the click of a button, so you better not screw up. Good luck, agent.",
 			"UI_MENU_PAGE_DMP2_TITLE": "DMP 2",
-			"UI_CONTRACT_BEAVER_NAME_TARGET_01": "Red Cocaine",
+			"UI_CONTRACT_BEAVER_NAME_TARGET_01": "The Red Cocaine",
 			"UI_CONTRACT_BEAVER_HUD_TARGET_01": "Eliminate The Red Cocaine",
 			"UI_BEAVER_DESCRIPTION": "Delgado has requested that you track down and eliminate a target. The target's identity is unknown, but it is known that he is the organizer of a party in the basement of a church. Rico wishes you luck.",
-			"UI_CONTRACT_BEAVER_Cocaine_01": "Retrive Cocaine"
+			"UI_CONTRACT_BEAVER_Cocaine_01": "Retrive Cocaine",
+			"UI_INTEL_BEAVER_INVESTEGATE_NAME": "Document",
+			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "Chief, I hope you remember our meeting upstairs? I'm ready to offer you a substantial sum for your people to stop breaking in on us!",
+			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Police officer"
 		},
 		"french": {},
 		"italian": {},
@@ -64,13 +61,16 @@
 			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_DESC": "Ноутбук сканирован",
 			"UI_CONTRACT_ESCAPE_DESC": "Говорит Диана, за тобой обьявили охоту, 47-й. Сбеги со своего номера и добудь данные об охотниках. После этого сбеги с самого отеля на лодке. Удачи, 47-й.",
 			"UI_OUTFIT_MENSION_GUARD_DEMETRIO_RICARDO": "Деметрио Рикардо",
-			"UI_CONTRACT_BEAVER_TITLE": "Алый Кокаин\n",
+			"UI_CONTRACT_BEAVER_TITLE": "Красный Кокаин",
 			"UI_CONTRACT_BEAVER_DESC": "Доброе утро, 47-ой. Учитывая, что ты смог убить нашего партнёра, думаю, что для тебя не будет сложностью выполнить тестовое задание. Группа торчков из Сапиенцы купила у нашего картеля большую партию кокаина. Во время сделки они нас предали. Твоя задача найти товар и разобраться с самими парнями. Помни, что дистанционный чип может сработать по одному щелчку кнопки, поэтому тебе лучше не облажаться. Удачи, агент.",
 			"UI_MENU_PAGE_DMP2_TITLE": "DMP 2",
 			"UI_CONTRACT_BEAVER_NAME_TARGET_01": "Красный Кокаин",
 			"UI_CONTRACT_BEAVER_HUD_TARGET_01": "Устранить Красный Кокаин",
 			"UI_BEAVER_DESCRIPTION": "Дельгадо попросило выследить и устранить цель, личность цели не была установлена. Известно что он является организатором вечеринки в подвале церкви. Рико желает удачи.",
-			"UI_CONTRACT_BEAVER_Cocaine_01": "Забрать Кокаин"
+			"UI_CONTRACT_BEAVER_Cocaine_01": "Забрать Кокаин",
+			"UI_INTEL_BEAVER_INVESTEGATE_NAME": "Документ",
+			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "Начальник, я надеюсь что вы помните о нашей встрече наверху? Я готов дать вам большую сумму за то что ваши люди перестанут ломиться к нам!",
+			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Офицер полиции"
 		},
 		"chineseSimplified": {
 			"UI_CONTRACT_GREASE_TITLE": "名流",
@@ -78,7 +78,26 @@
 			"GREASE_DESC_ACTOR": "雷顿·凯恩出生并成长在一个艰苦的社区，为生存而奋斗成为他童年的日常现实。尽管困难重重，但他表现出了罕见的决心、快速适应能力和分析能力。\n\n雷顿从小就培养了自己在信息技术领域的技能。他好奇心强，研究计算机程序和系统，钻研编程和网络研究。\n\n没过几年，雷顿就成为了地下世界最著名、最受欢迎的黑客之一。他敏锐的智慧和潜入最安全系统的技能吸引了不少组织的注意。有一天，他接触到了一个由里科·戴尔加多领导的强大卡特尔。\n\n他的无与伦比的渗透技能给戴尔加多留下了深刻印象，于是他们邀请雷顿加入他的团队。这次合作成了雷顿人生的转折点。他获得了宝贵的信息，参与了复杂的网络间谍任务，并操纵金融系统为卡特尔提供新的收入来源。\n\n不过，随着时间的推移，雷顿开始在内心质疑自己行为的道德性。他意识到自己的技能和智慧可以用来改善社会，而不仅仅是犯罪。在他的内心深处，莱顿开始寻找挣脱卡特尔罪恶之网的方法，并将自己的才能用于不同的目的。",
 			"UI_INTEL_PHONE_NAME": "戴尔加多的手机",
 			"UI_INTEL_PHONE_DESC": "手机上有一条来自未知用户的信息。留言是这样的：\n\n“雷顿·凯恩会来见你，他想远离犯罪生活。如果威胁不起作用，你可以使用武力。”\n",
-			"UI_MISSION_GREASE_TITLE_HUD": "名流"
+			"UI_MISSION_GREASE_TITLE_HUD": "名流",		
+			"UI_CONTRACT_ESCAPE_NAME": "获取数据",
+			"UI_CONTRACT_ESCAPE_OBJECTIVE": "你正遭受追捕。找出追捕你的人，然后逃走。",
+			"UI_CONTRACT_ESCAPE_TITLE": "逃离行动",
+			"UI_CONTRACT_ESCAPE_DESC": "戴安娜说，你已被标记为猎物了，47。逃离当前位置，收集猎人的信息，然后乘船离开旅馆。祝你好运，47。",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_NAME": "扫描笔记本电脑",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_DESC": "导出数据",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_NAME": "数据已提取",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_DESC": "笔记本电脑已扫描",
+			"UI_OUTFIT_MENSION_GUARD_DEMETRIO_RICARDO": "德梅特里奥·里卡多",
+			"UI_CONTRACT_BEAVER_TITLE": "猩红可卡因",
+			"UI_CONTRACT_BEAVER_DESC": "早上好，47。\n\n考虑到你们能除掉我们的搭档，我相信完成这个测试任务对你来说不成问题。\n\n一群来自萨比恩撒的瘾君子从我们的贩毒集团买了一大批可卡因，可惜他们在交易过程中背叛了我们。\n\n你的任务就是找到那批可卡因，然后亲自处理掉他们。\n\n记住，只要按一下按钮就能激活遥控芯片，所以你最好别搞砸了。祝你好运，特工。",
+			"UI_MENU_PAGE_DMP2_TITLE": "DMP 2",
+			"UI_CONTRACT_BEAVER_NAME_TARGET_01": "猩红可卡因",
+			"UI_CONTRACT_BEAVER_HUD_TARGET_01": "消灭“猩红可卡因”",
+			"UI_BEAVER_DESCRIPTION": "戴尔加多要求你追踪并消灭目标。目标身份不明，但已知他是教堂地下室派对的组织者。里科祝你好运。",
+			"UI_CONTRACT_BEAVER_Cocaine_01": "获取可卡因",
+			"UI_INTEL_BEAVER_INVESTEGATE_NAME": "文件",
+			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "警官先生，我希望你还记得我们在楼上的会面。我准备会给你一大笔钱，但你的人别再闯进来了！",
+			"UI_DISSMISSED_POLICE_OFFICER_DESC": "警察"
 		},
 		"chineseTraditional": {
 			"UI_CONTRACT_GREASE_TITLE": "聞人",
@@ -86,7 +105,26 @@
 			"GREASE_DESC_ACTOR": "萊頓·凱恩在一個艱苦的社區出生長大，生存鬥爭成為他童年的日常現實。 儘管困難重重，他還是表現出了罕見的決心、快速適應能力和分析能力。\n\n 萊頓從小就在資訊科技領域培養了自己的技能。 他充滿好奇心，研究電腦程式和系統，深入研究程式設計和網路研究。 他在該領域獨特才能的體現是創建了模擬複雜生態系統並促進數據分析的虛擬網路。\n\n幾年後，萊頓成為地下社區中最著名和最受歡迎的黑客之一。 他敏銳的智慧和滲透最安全系統的技能吸引了許多團體的注意。 有一天，他與里科·德爾加多領導的一個強大的卡特爾取得了聯繫。\n\n從與繞過安全措施和獲取機密信息相關的簡單任務開始，萊頓很快就利用他熟練的網路操縱吸引了德爾加多的注意。 德爾加多對他的能力和無與倫比的滲透技巧印象深刻，邀請萊頓加入他的團隊。\n\n這次合作成為萊頓人生的轉捩點。 他獲得了寶貴的信息，參與了複雜的網路間諜任務，並操縱金融系統為卡特爾提供新的收入來源。 萊頓成為德爾加多團隊中不可或缺的成員，確保相對於對手的優勢並防止執法部門入侵。\n\n然而，隨著時間的推移，萊頓開始在心裡質疑他行為的道德性。 他意識到他的技能和智慧可以用來改善社會，而不僅僅是用於犯罪行為。 萊頓在心中開始尋找擺脫卡特爾邪惡網絡的方法，並將自己的才能用於不同的目的。",
 			"UI_INTEL_PHONE_NAME": "德爾加多的電話",
 			"UI_INTEL_PHONE_DESC": "電話裡，有一則來自未知用戶的訊息。 訊息中寫道：\n\n「萊頓·凱恩會來找你。他想擺脫犯罪生活。如果威脅不起作用，你可以使用武力。」\n",
-			"UI_MISSION_GREASE_TITLE_HUD": "聞人"
+			"UI_MISSION_GREASE_TITLE_HUD": "聞人",
+			"UI_CONTRACT_ESCAPE_NAME": "檢索資料",
+			"UI_CONTRACT_ESCAPE_OBJECTIVE": "你被追捕了，找出誰下令殺你並逃跑。",
+			"UI_CONTRACT_ESCAPE_TITLE": "逃亡",
+			"UI_CONTRACT_ESCAPE_DESC": "戴安娜說，你已被標記為獵物，47。逃離當前位置並收集有關獵人的資訊。 然後，搭船離開飯店。 祝你好運，47。",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_NAME": "掃描筆記型電腦",
+			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_DESC": "匯出數據",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_NAME": "數據已提取",
+			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_DESC": "筆記型電腦已掃描",
+			"UI_OUTFIT_MENSION_GUARD_DEMETRIO_RICARDO": "Demetrio Ricardo",
+			"UI_CONTRACT_BEAVER_TITLE": "深紅色古柯鹼",
+			"UI_CONTRACT_BEAVER_DESC": "早安，47。\n\n考慮到你能夠消滅我們的搭檔，我相信完成測試任務對你來說不成問題。\n\n羅馬大學的一群癮君子從我們的販毒集團購買了大量古柯鹼。 他們在交易期間背叛了我們。\n\n你的任務是找到產品並除掉這些人。 請記住，只需單擊按鈕即可啟動遠端晶片，因此您最好不要搞砸。 祝你好運，特務。",
+			"UI_MENU_PAGE_DMP2_TITLE": "DMP 2",
+			"UI_CONTRACT_BEAVER_NAME_TARGET_01": "深紅色古柯鹼",
+			"UI_CONTRACT_BEAVER_HUD_TARGET_01": "消滅深紅色古柯鹼",
+			"UI_BEAVER_DESCRIPTION": "德爾加多要求你追蹤並消滅一個目標。 目標身份不明，但已知他是教會地下室聚會的組織者。 里科祝你好運。",
+			"UI_CONTRACT_BEAVER_Cocaine_01": "取回古柯鹼",
+			"UI_INTEL_BEAVER_INVESTEGATE_NAME": "文件",
+			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "警察先生，我希望你還記得我們在樓上的會面嗎？ 我準備向你提供一大筆錢，讓你的人停止闖入我們！",
+			"UI_DISSMISSED_POLICE_OFFICER_DESC": "警官"
 		},
 		"japanese": {}
 	},
@@ -125,8 +163,23 @@
 		},
 		{
 			"type": "entity",
+			"partition": "coastaltown",
+			"path": "[assembly:/_pro/scenes/missions/coastaltown/hard_beaver.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "coastaltown",
+			"path": "[assembly:/_pro/scenes/missions/coastaltown/easy_beaver.brick].entitytype"
+		},
+		{
+			"type": "entity",
 			"partition": "bangkok",
 			"path": "[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "hawk",
+			"path": "[assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick].entitytype"
 		}
 	],
 	"dependencies": [
@@ -158,6 +211,8 @@
 		"007DFF58517CD91D",
 		"00E28D45200565E3",
 		"00613EB31E7FA798",
+		"0011C22B94EDE5E5",
+		"0012EA4CD54CDBD4",
 		{
 			"runtimeID": "00B8E5B83D2CE709",
 			"toChunk": 17,
@@ -170,115 +225,14 @@
 		{
 			"runtimeID": "00F8B9F8437C99C3",
 			"toChunk": 26
-		}
-	]
-}
-	],
-	"frameworkVersion": "2.0.0",
-	"blobsFolders": [
-		"blobs"
-	],
-	"contentFolders": [
-		"content"
-	],
-	"localisation": {
-		"english": {
-			"UI_CONTRACT_GREASE_TITLE": "The Celebrity",
-			"UI_CONTRACT_GREASE_DESC": "Agent 47, your next mission takes place in Mumbai, where we will encounter an extraordinary target. Layton Kaine, known as one of the world's successful celebrities, has arrived in Mumbai with a singular purpose—to meet with the Delgado cartel. Remember, the successful completion of this mission holds high importance for our client. Defeating the Delgado cartel and preventing the meeting with Layton Kaine could deal a significant blow to the global criminal community and the status of our target, Delgado. Be extremely cautious and leave no traces. The time for our success has come. Good luck, Agent 47",
-			"GREASE_DESC_ACTOR": "Leighton Kane was born and raised in a tough neighborhood, where the struggle for survival became a daily reality of his childhood. Despite the difficulties, he exhibited a rare combination of determination, quick adaptability, and analytical abilities.\n\nFrom an early age, Leighton developed his skills in the field of information technology. He was inquisitive, studied computer programs and systems, delved into programming and network research. A manifestation of his unique talents in this field was the creation of virtual networks that simulated complex ecosystems and facilitated data analysis.\n\nSeveral years later, Leighton became one of the most renowned and sought-after hackers in the underground community. His sharp intellect and skills for infiltrating even the most secure systems attracted the attention of many groups. And one day, he made contact with a powerful cartel led by Rico Delgado.\n\nStarting with simple tasks related to bypassing security and acquiring confidential information, Leighton soon used his adept network manipulation to catch Delgado's attention. Impressed by his abilities and unparalleled penetration skills, Delgado invited Leighton to join his team.\n\nThis collaboration became a turning point in Leighton's life. He gained access to invaluable information, participated in complex cyber espionage missions, and manipulated financial systems to provide the cartel with new sources of income. Leighton became an indispensable member of Delgado's team, ensuring an advantage over their adversaries and protection against law enforcement intrusion.\n\nHowever, over time, Leighton began to internally question the morality of his actions. He realized that his skills and intelligence could be used for the betterment of society, not just for criminal deeds. In his heart, Leighton began searching for ways to break free from the cartel's sinister web and utilize his talents for different purposes.",
-			"UI_INTEL_PHONE_NAME": "Delgado's Phone",
-			"UI_INTEL_PHONE_DESC": "On the phone, there is a message from an unknown user. The message says:\n\"Leighton Kane will come to you. He wants to step away from the criminal life. If threats don't work, you can apply force.\"\n",
-			"UI_MISSION_GREASE_TITLE_HUD": "The Celebrity",
-			"UI_CONTRACT_ESCAPE_NAME": "Retrive Data",
-			"UI_CONTRACT_ESCAPE_OBJECTIVE": "You’re on the hunt, find out who ordered you and escape.",
-			"UI_CONTRACT_ESCAPE_TITLE": "The Escape",
-			"UI_CONTRACT_ESCAPE_DESC": "Placeholder value",
-			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_NAME": "Scanninig Laptop",
-			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_DESC": "Exporting data",
-			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_NAME": "Data extracted",
-			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_DESC": "Laptop scanned"
-		},
-		"french": {},
-		"italian": {},
-		"german": {},
-		"spanish": {},
-		"russian": {
-			"UI_CONTRACT_GREASE_TITLE": "Знаменитость",
-			"UI_CONTRACT_GREASE_DESC": "Агент 47, твоя следующая миссия находится в Мумбаи, где мы столкнемся с неординарной целью. Лейтон Кейн, известный как одна из успешных знаменитостей мирового масштаба, прибыл в Мумбаи с одной целью - встретиться с картелем Дельгадо.\n\nПомните, что успешное завершение этой миссии представляет высокую важность для нашего клиента. Поражение картеля Дельгадо и предотвращение встречи с Лейтоном Кейном может нанести существенный удар по мировому преступному сообществу и статусу нашей цели, Дельгадо.\n\nБудьте предельно осторожны и не оставляйте следов. Время нашего успеха настало. Удачи, агент 47 \n",
-			"GREASE_DESC_ACTOR": "Лейтон Кейн родился и вырос в суровом районе города, где борьба за выживание стала каждодневной реальностью его детства. Несмотря на трудности, он проявил редкое сочетание упорства, умения быстро приспосабливаться и аналитических способностей.\n\nС самого детства Лейтон развивал свои навыки в области информационных технологий. Он был любознателен, изучал компьютерные программы и системы, углублялся в программирование и исследование сетей. Проявлением его уникальных талантов в этой области было создание виртуальных сетей, имитирующих сложные экосистемы и способствующих анализу данных.\n\nСпустя несколько лет Лейтон стал одним из самых известных и востребованных хакеров в подпольном сообществе. Его пронзительный ум и навыки проникновения в самые защищенные системы привлекли внимание многих группировок. И однажды он вступил в контакт с могущественным картелем, возглавляемым Рико Дельгадо.\n\nНачиная с простых заданий по обходу безопасности и получению конфиденциальной информации, Лейтон вскоре воспользовался своей умелой манипуляцией сетей, чтобы привлечь внимание Дельгадо. Пораженный его способностями и беспрецедентной проникновенностью, Дельгадо пригласил Лейтона присоединиться к его команде.\n\nЭто сотрудничество стало точкой перегиба в жизни Лейтона. Он получил доступ к бесценной информации, принимал участие в сложных миссиях по кибершпионажу и манипулировал финансовыми системами, чтобы обеспечить картел новыми источниками дохода. Лейтон стал незаменимым членом команды Дельгадо, обеспечивая ему преимущество перед врагами и защиту от проникновения правоохранительных органов. \nНо с течением времени Лейтон начал внутренне сомневаться в моральной стороне своих действий. Он понимал, что его навыки и интеллект могли бы быть использованы для блага общества, не только для преступных деяний. В душе, Лейтон стал искать способы выбраться из зловещих паутин картеля и использовать свои таланты для иных целей.",
-			"UI_INTEL_PHONE_DESC": "На телефоне открыто сообщение от неизвестного пользователя, сообщение гласит:\n\"К вам прийдёт Лэйтон Кейн. Он хочет отойти от криминальной жизни, если угрозы не сработают то можете применять боль\"",
-			"UI_INTEL_PHONE_NAME": "Телефон Дельгадо",
-			"UI_MISSION_GREASE_TITLE_HUD": "Знаменитость",
-			"UI_CONTRACT_ESCAPE_TITLE": "Побег",
-			"UI_CONTRACT_ESCAPE_NAME": "Заберите данные",
-			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_NAME": "Сканирование ноутбука",
-			"UI_CAMERA_SCAN_INTEL_OBJECT_LAPTOP_DESC": "Экспорт данных",
-			"UI_CONTRACT_ESCAPE_OBJECTIVE": "За вами обьявленна охота, узнайте кто заказал вас и сбегите.",
-			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_NAME": "Данные собраны",
-			"UI_CAMERA_SCAN_COMPLETE_INTEL_OBJECT_LAPTOP_DESC": "Ноутбук сканирован"
-		},
-		"chineseSimplified": {
-			"UI_CONTRACT_GREASE_TITLE": "名流",
-			"UI_CONTRACT_GREASE_DESC": "47，你的下一个任务发生在孟买，那里我们将遇到一个非同寻常的目标。雷顿·凯恩，世界著名的成功人士之一，他来到孟买的目的只有一个——与戴尔加多集团会面。请记住，成功完成这次任务对我们的客户至关重要。处理掉戴尔加多贩毒集团并阻止其与雷顿·凯恩的会面，会对全球犯罪集团和我们的目标人物戴尔加多的地位造成重大打击。务必小心谨慎，不留痕迹。我们成功的时刻到了。祝你好运，特工",
-			"GREASE_DESC_ACTOR": "雷顿·凯恩出生并成长在一个艰苦的社区，为生存而奋斗成为他童年的日常现实。尽管困难重重，但他表现出了罕见的决心、快速适应能力和分析能力。\n\n雷顿从小就培养了自己在信息技术领域的技能。他好奇心强，研究计算机程序和系统，钻研编程和网络研究。\n\n没过几年，雷顿就成为了地下世界最著名、最受欢迎的黑客之一。他敏锐的智慧和潜入最安全系统的技能吸引了不少组织的注意。有一天，他接触到了一个由里科·戴尔加多领导的强大卡特尔。\n\n他的无与伦比的渗透技能给戴尔加多留下了深刻印象，于是他们邀请雷顿加入他的团队。这次合作成了雷顿人生的转折点。他获得了宝贵的信息，参与了复杂的网络间谍任务，并操纵金融系统为卡特尔提供新的收入来源。\n\n不过，随着时间的推移，雷顿开始在内心质疑自己行为的道德性。他意识到自己的技能和智慧可以用来改善社会，而不仅仅是犯罪。在他的内心深处，莱顿开始寻找挣脱卡特尔罪恶之网的方法，并将自己的才能用于不同的目的。",
-			"UI_INTEL_PHONE_NAME": "戴尔加多的手机",
-			"UI_INTEL_PHONE_DESC": "手机上有一条来自未知用户的信息。留言是这样的：\n\n“雷顿·凯恩会来见你，他想远离犯罪生活。如果威胁不起作用，你可以使用武力。”\n",
-			"UI_MISSION_GREASE_TITLE_HUD": "名流"
-		},
-		"chineseTraditional": {
-			"UI_CONTRACT_GREASE_TITLE": "聞人",
-			"UI_CONTRACT_GREASE_DESC": "特務 47，你的下一個任務發生在孟買，我們將在那裡遇到一個非凡的目標。 萊頓·凱恩被譽為世界上最成功的名人之一，他抵達孟買的目的只有一個：與德爾加多販毒集團會面。 請記住，成功完成這項任務對我們的客戶來說非常重要。 擊敗德爾加多販毒集團並阻止與雷頓凱恩的會面可能會對全球犯罪界和我們的目標德爾加多的地位造成重大打擊。 要極其小心，不要留下任何痕跡。 我們成功的時刻已經到來。 祝你好運，特務 47！",
-			"GREASE_DESC_ACTOR": "萊頓·凱恩在一個艱苦的社區出生長大，生存鬥爭成為他童年的日常現實。 儘管困難重重，他還是表現出了罕見的決心、快速適應能力和分析能力。\n\n 萊頓從小就在資訊科技領域培養了自己的技能。 他充滿好奇心，研究電腦程式和系統，深入研究程式設計和網路研究。 他在該領域獨特才能的體現是創建了模擬複雜生態系統並促進數據分析的虛擬網路。\n\n幾年後，萊頓成為地下社區中最著名和最受歡迎的黑客之一。 他敏銳的智慧和滲透最安全系統的技能吸引了許多團體的注意。 有一天，他與里科·德爾加多領導的一個強大的卡特爾取得了聯繫。\n\n從與繞過安全措施和獲取機密信息相關的簡單任務開始，萊頓很快就利用他熟練的網路操縱吸引了德爾加多的注意。 德爾加多對他的能力和無與倫比的滲透技巧印象深刻，邀請萊頓加入他的團隊。\n\n這次合作成為萊頓人生的轉捩點。 他獲得了寶貴的信息，參與了複雜的網路間諜任務，並操縱金融系統為卡特爾提供新的收入來源。 萊頓成為德爾加多團隊中不可或缺的成員，確保相對於對手的優勢並防止執法部門入侵。\n\n然而，隨著時間的推移，萊頓開始在心裡質疑他行為的道德性。 他意識到他的技能和智慧可以用來改善社會，而不僅僅是用於犯罪行為。 萊頓在心中開始尋找擺脫卡特爾邪惡網絡的方法，並將自己的才能用於不同的目的。",
-			"UI_INTEL_PHONE_NAME": "德爾加多的電話",
-			"UI_INTEL_PHONE_DESC": "電話裡，有一則來自未知用戶的訊息。 訊息中寫道：\n\n「萊頓·凱恩會來找你。他想擺脫犯罪生活。如果威脅不起作用，你可以使用武力。」\n",
-			"UI_MISSION_GREASE_TITLE_HUD": "聞人"
-		},
-		"japanese": {}
-	},
-	"loadAfter": [],
-	"localisedLines": {
-
-	},
-	"packagedefinition": [
-		{
-			"type": "entity",
-			"partition": "mongoose",
-			"path": "[assembly:/_pro/scenes/missions/mumbai/mission_grease.brick].entitytype"
 		},
 		{
-			"type": "entity",
-			"partition": "mongoose",
-			"path": "[assembly:/_pro/scenes/missions/mumbai/mission_grease_pro1.brick].entitytype"
+			"runtimeID": "008DE5788C65E2BC",
+			"toChunk": 8
 		},
 		{
-			"type": "entity",
-			"partition": "mongoose",
-			"path": "[assembly:/_pro/scenes/missions/mumbai/mission_grease_easy.brick].entitytype"
-		},
-		{
-			"type": "entity",
-			"partition": "bangkok",
-			"path": "[assembly:/_pro/scenes/missions/bangkok/mission_escape.brick].entitytype"
-		},
-		{
-			"type": "entity",
-			"partition": "bangkok",
-			"path": "[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].entitytemplate"
-		}
-	],
-	"dependencies": [
-		"00F00922AADE2E69",
-		"00EE10333D3E7DBF",
-		"004C06BE00B43E75",
-        "003ECA231031F074",
-		"0042540ECB00E00D",
-		"00E07B3445356275",
-		"00B8A16A8C51F95F",
-		"0059446AC129064E",
-		{
-			"runtimeID": "00B8E5B83D2CE709",
-			"toChunk": 17,
-			"comment": "[assembly:/geometry/collections/props/sushitray_props_01.wl2?/item_sushi_tray_c_high.prim].pc_entitytype"
+			"runtimeID": "007F7EB288B66E9C",
+			"toChunk": 8
 		}
 	]
 }
