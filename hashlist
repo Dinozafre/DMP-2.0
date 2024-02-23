@@ -84,3 +84,13 @@
 0072A14EB2232754.DLGE,[assembly:/localization/hitman6/conversations/ai/caruso/gen_reveal_сhief_song.sweetdialog].pc_dialogevent
 0052477FEEDE0453.DLGE,[assembly:/localization/hitman6/conversations/ai/caruso/gen_reveal_сhief_peaceful.sweetdialog].pc_dialogevent
 00B6305D92AC9B8C.DLGE,[assembly:/localization/hitman6/conversations/ai/priest_male/gen_reveal_priest_talk_cop.sweetdialog].pc_dialogevent
+008D187907E501B0.LINE,ui_intel_beaver_investegate_name
+00C5E39C271F68BA.LINE,ui_intel_beaver_investegate_desc
+009BF0761A5FFF0D.TEMP,[assembly:/_pro/scenes/missions/coastaltown/hard_beaver.brick].pc_entitytype
+00337C478D3472EA.TBLU,[assembly:/_pro/scenes/missions/coastaltown/hard_beaver.brick].pc_entityblueprint
+0036598B45BF1B49.TEMP,[assembly:/_pro/scenes/missions/coastaltown/easy_beaver.brick].pc_entitytype
+00FA5E45BC772700.TBLU,[assembly:/_pro/scenes/missions/coastaltown/easy_beaver.brick].pc_entityblueprint
+00696A1FABC6D3A7.TEMP,[assembly:/_pro/scenes/missions/hawk/override_hawk.brick].pc_entitytype
+0094BC87E73847C6.TBLU,[assembly:/_pro/scenes/missions/hawk/override_hawk.brick].pc_entityblueprint
+00935A61AD8AD337.TEMP,[assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick].pc_entitytype
+00400BC506BBDDE2.TBLU,[assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick].pc_entityblueprint
