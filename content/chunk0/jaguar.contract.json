@@ -1,0 +1,176 @@
+{    "SMF": {
+    "destinations": {
+        "addToDestinations": true,
+        "peacockIntegration": true
+        
+    }
+},
+    "Data": {
+        "EnableSaving": true,
+        "Objectives": [
+            {
+                "_comment": "----- Eliminate Josué Morgan-----",
+                "Id": "ebb3ab79-fb8a-4a76-8d5b-f74aa61fb642",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "e1c5f7a1-c1f7-4297-ad08-63189ac30909"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Arnaud Céleste-----",
+                "Activation": {
+                    "$eq": [
+                        "$ebb3ab79-fb8a-4a76-8d5b-f74aa61fb642",
+                        "Completed"
+                    ]
+                },
+                "Id": "ff203ce2-f65a-49ff-aa16-e8a1bd643799",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "6ffab9b4-a025-4665-a0f6-5a7262c41869"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Gaétan Boniface-----",
+                "Activation": {
+                    "$eq": [
+                        "$ff203ce2-f65a-49ff-aa16-e8a1bd643799",
+                        "Completed"
+                    ]
+                },
+                "Id": "cf711dea-0908-4627-ba6d-87e4715953c6",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "280c80f9-262e-4adf-8aef-06382d3cc094"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Gaétan Boniface-----",
+                "Activation": {
+                    "$eq": [
+                        "$cf711dea-0908-4627-ba6d-87e4715953c6",
+                        "Completed"
+                    ]
+                },
+                "Id": "c21cb26c-f705-435d-bece-b499f3c8bfd2",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "0aa74f7d-ab77-4220-a228-ff1c5f556579"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Elmer Landyn-----",
+                "Activation": {
+                    "$eq": [
+                        "$c21cb26c-f705-435d-bece-b499f3c8bfd2",
+                        "Completed"
+                    ]
+                },
+                "Id": "5b3383f3-3491-49d2-9a6f-d36b917e0b0c",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "da1b3cd5-6c83-429f-87fe-0ec03352f306"
+                    }
+                }
+            }
+        ],
+        "Bricks": ["assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick"],
+        "GameChangers": [],
+        "EngineModesBricks": [
+            {
+                "Mode": "singleplayer",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/hawk/singleplayer_hawk.brick"
+                ]
+            },
+            {
+                "Mode": "multiplayer",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/hawk/multiplayer_hawk.brick"
+                ]
+            }
+        ],
+        "SimulationQualities": [
+            {
+                "Quality": "better",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/hawk/intel_6core_hawk.brick"
+                ]
+            },
+            {
+                "Quality": "best",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/hawk/intel_8core_hawk.brick"
+                ]
+            }
+        ]
+    },
+    "Metadata": {
+        "CreatorUserId": "ae4a3efe-63c9-43e9-8f57-67678b9f95e2",
+        "IsPublished": true,
+        "TileImage": [
+            {
+                "Mode": "singleplayer",
+                "Image": "images/sniper/jaguar_tile.jpg"
+            },
+            {
+                "Mode": "multiplayer",
+                "Image": "images/contracts/hawk/tile_mp.jpg"
+            }
+        ],
+        "BackgroundImage": [
+            {
+                "Mode": "singleplayer",
+                "Image": "images/contracts/hawk/tile_background.jpg"
+            },
+            {
+                "Mode": "multiplayer",
+                "Image": "images/contracts/hawk/tile_background.jpg"
+            }
+        ],
+        "Location": "LOCATION_AUSTRIA",
+        "Title": "UI_CONTRACT_JAGUAR_TITLE",
+        "CodeName_Hint": "Jaguar",
+        "ScenePath": "assembly:/_pro/scenes/missions/Hawk/scene_hawk.entity",
+        "Description": "UI_CONTRACT_JAGUAR_DESC",
+        "Id": "9d9bd362-51c8-4e2c-9a73-7fd015ca7ede",
+        "CreationTimestamp": "2014-04-04T09:41:25.473Z",
+        "LastUpdate": "2015-05-19T09:56:04.984Z",
+        "Type": "sniper",
+        "Release": "2.0.x",
+        "Gamemodes": [
+            "sniper"
+        ],
+        "Enginemodes": [
+            "singleplayer"
+        ],
+        "CharacterSetup": [
+            {
+                "Mode": "singleplayer",
+                "Characters": [
+                    {
+                        "Name": "47",
+                        "Id": "44eba719-4d3a-4f27-9437-3f29821934b3",
+                        "MandatoryLoadout": [
+                            "FIREARMS_SC_HERO_SNIPER_HM"
+                        ]
+                    }
+                ]
+            }
+        ]
+        },
+        "UserData": {}}

@@ -1,0 +1,57 @@
+{
+    "e1c5f7a1-c1f7-4297-ad08-63189ac30909":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "e1c5f7a1-c1f7-4297-ad08-63189ac30909",
+        "Image": "images/actors/jaguar_1_target.jpg",
+        "Name": "Josué Morgan",
+        "Outfit": "cfc20192-0c87-4490-936f-7ae7ef038c55",
+        "OutfitVariationIndex": 0,
+        "Tile": "images/actors/default_target.png"
+    },
+    "6ffab9b4-a025-4665-a0f6-5a7262c41869":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "6ffab9b4-a025-4665-a0f6-5a7262c41869",
+        "Image": "images/actors/jaguar_2_target.jpg",
+        "Name": "Gaétan Boniface",
+        "Outfit": "cfc20192-0c87-4490-936f-7ae7ef038c55",
+        "OutfitVariationIndex": 0,
+        "Tile": "images/actors/default_target.png"
+    },
+    "280c80f9-262e-4adf-8aef-06382d3cc094":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "280c80f9-262e-4adf-8aef-06382d3cc094",
+        "Image": "images/actors/jaguar_3_target.jpg",
+        "Name": "Ruslan Sharov",
+        "Outfit": "8334d860-6a9f-45c4-b1ff-00e48ed6ba61",
+        "OutfitVariationIndex": 0,
+        "Tile": "images/actors/default_target.png"
+    },
+    "0aa74f7d-ab77-4220-a228-ff1c5f556579":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "0aa74f7d-ab77-4220-a228-ff1c5f556579",
+        "Image": "images/actors/jaguar_4_target.jpg",
+        "Name": "Mainio Ari",
+        "Outfit": "d9a3ec3a-376d-487d-8686-67bae1fca6c9",
+        "OutfitVariationIndex": 13,
+        "Tile": "images/actors/default_target.png"
+    },
+    "da1b3cd5-6c83-429f-87fe-0ec03352f306":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "da1b3cd5-6c83-429f-87fe-0ec03352f306",
+        "Image": "images/actors/jaguar_5_target.jpg",
+        "Name": "Alice Lylou",
+        "Outfit": "6c2c8e5f-31e1-4ccc-b7b5-781add7563f8",
+        "OutfitVariationIndex": 7,
+        "Tile": "images/actors/default_target.png" 
+    }
+}
