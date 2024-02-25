@@ -39,7 +39,9 @@
 			"UI_CONTRACT_BEAVER_Cocaine_01": "Retrive Cocaine",
 			"UI_INTEL_BEAVER_INVESTEGATE_NAME": "Document",
 			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "Chief, I hope you remember our meeting upstairs? I'm ready to offer you a substantial sum for your people to stop breaking in on us!",
-			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Police officer"
+			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Police officer",
+			"UI_CONTRACT_JAGUAR_TITLE": "Grim Reaper",
+			"UI_CONTRACT_JAGUAR_DESC": "Excellent work in Sapienza. I have a new assignment for you. The target is an official Douglass Kendrick. This person tried to stop our shipments to Austria. After three attempts to catch the bastard, he decided to escape to one of the weddings and hide in the mansion. In order to smoke him out, eliminate his colleagues and acquaintances. Good luck."
 		},
 		"french": {},
 		"italian": {},
@@ -70,7 +72,9 @@
 			"UI_CONTRACT_BEAVER_Cocaine_01": "Забрать Кокаин",
 			"UI_INTEL_BEAVER_INVESTEGATE_NAME": "Документ",
 			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "Начальник, я надеюсь что вы помните о нашей встрече наверху? Я готов дать вам большую сумму за то что ваши люди перестанут ломиться к нам!",
-			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Офицер полиции"
+			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Офицер полиции",
+			"UI_CONTRACT_JAGUAR_TITLE": "Смерть с косой",
+			"UI_CONTRACT_JAGUAR_DESC": "Отлично поработал в Сапиенце. У меня для тебя новое задание. Цель - чиновник Douglass Kendrick. Данная персона пыталась остановить наши поставки в Австрию. После трёх попыток поймать мерзавца, он решил сбежать на одну из свадьб и спрятаться в особняке. Для того, чтобы его выкурить, устрани его коллег и знакомых. Удачи."
 		},
 		"chineseSimplified": {
 			"UI_CONTRACT_GREASE_TITLE": "名流",
@@ -213,6 +217,8 @@
 		"00613EB31E7FA798",
 		"0011C22B94EDE5E5",
 		"0012EA4CD54CDBD4",
+		"001C2063E4256C16",
+		"005EACACF8C973DD",
 		{
 			"runtimeID": "00B8E5B83D2CE709",
 			"toChunk": 17,
