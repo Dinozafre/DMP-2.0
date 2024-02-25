@@ -90,6 +90,10 @@
 		{
 			"ref": "355eebbc0cb6a4a6",
 			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
+		},
+		{
+			"ref": "d84ee599d640ba7a",
+			"externalScene": "[assembly:/_pro/scenes/missions/hawk/scenario_hawk.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
