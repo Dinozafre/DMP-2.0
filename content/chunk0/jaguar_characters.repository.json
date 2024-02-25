@@ -53,5 +53,60 @@
         "Outfit": "6c2c8e5f-31e1-4ccc-b7b5-781add7563f8",
         "OutfitVariationIndex": 7,
         "Tile": "images/actors/default_target.png" 
+    },
+    "cd8f0fb5-dc57-4941-934a-625b0ce832f3":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "cd8f0fb5-dc57-4941-934a-625b0ce832f3",
+        "Image": "images/actors/jaguar_7_target.jpg",
+        "Name": "Dimosthenis Yorgos",
+        "Outfit": "15df94f0-86c8-472a-b62b-ece6d4f1a266",
+        "OutfitVariationIndex": 0,
+        "Tile": "images/actors/default_target.png" 
+    },
+    "ca06f4b5-5f14-4af2-828b-495a7034ab31":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "ca06f4b5-5f14-4af2-828b-495a7034ab31",
+        "Image": "images/actors/jaguar_6_target.jpg",
+        "Name": "Kyriakos Prokopios",
+        "Outfit": "781bfe3e-77e0-431c-8672-3bbed08b2bdc",
+        "OutfitVariationIndex": 0,
+        "Tile": "images/actors/default_target.png" 
+    },
+    "f6508b07-61da-490e-a37e-d2551fdcd2ed":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "f6508b07-61da-490e-a37e-d2551fdcd2ed",
+        "Image": "images/actors/jaguar_8_target.jpg",
+        "Name": "Erland Viggo",
+        "Outfit": "20a8033a-f6b7-49a6-ac11-ed8bd414020b",
+        "OutfitVariationIndex": 6,
+        "Tile": "images/actors/default_target.png" 
+    },
+    "4a687af6-b279-437f-b205-10d3605d4409":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "4a687af6-b279-437f-b205-10d3605d4409",
+        "Image": "images/actors/jaguar_9_target.jpg",
+        "Name": "Marwin Gerd",
+        "Outfit": "c50937f8-394f-4563-8218-61704698cc24",
+        "OutfitVariationIndex": 3,
+        "Tile": "images/actors/default_target.png" 
+    },
+    "dfed7fad-b5b2-475b-8cc3-e6a0b32a9f05":{
+        "CharacterSetIndex": 0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "ID_": "dfed7fad-b5b2-475b-8cc3-e6a0b32a9f05",
+        "Image": "images/actors/jaguar_10_target.jpg",
+        "Name": "Douglass Kendrick",
+        "Outfit": "8334d860-6a9f-45c4-b1ff-00e48ed6ba61",
+        "OutfitVariationIndex": 4,
+        "Tile": "images/actors/default_target.png" 
     }
 }

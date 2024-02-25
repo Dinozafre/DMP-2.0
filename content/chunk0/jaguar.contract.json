@@ -86,6 +86,92 @@
                         "RepositoryId": "da1b3cd5-6c83-429f-87fe-0ec03352f306"
                     }
                 }
+            },
+            {
+                "_comment": "----- Eliminate Dimosthenis Yorgos-----",
+                "Activation": {
+                    "$eq": [
+                        "$5b3383f3-3491-49d2-9a6f-d36b917e0b0c",
+                        "Completed"
+                    ]
+                },
+                "Id": "1a5b5af1-1187-4cb1-9834-ec6f8f31abf9",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "cd8f0fb5-dc57-4941-934a-625b0ce832f3"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Kyriakos Prokopios-----",
+                "Activation": {
+                    "$eq": [
+                        "$5b3383f3-3491-49d2-9a6f-d36b917e0b0c",
+                        "Completed"
+                    ]
+                },
+                "Id": "dbb80501-5f60-4206-bef6-5d437434c594",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "ca06f4b5-5f14-4af2-828b-495a7034ab31"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Erland Viggo-----",
+                "Activation": {
+                    "$eq": [
+                        "$1a5b5af1-1187-4cb1-9834-ec6f8f31abf9",
+                        "$dbb80501-5f60-4206-bef6-5d437434c594",
+                        "Completed"
+                    ]
+                },
+                "Id": "696ba3dc-8be8-4829-a811-bf3210f79eb5",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "f6508b07-61da-490e-a37e-d2551fdcd2ed"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Marwin Gerd-----",
+                "Activation": {
+                    "$eq": [
+                        "$696ba3dc-8be8-4829-a811-bf3210f79eb5",
+                        "Completed"
+                    ]
+                },
+                "Id": "b59ffb9e-fda4-4a51-8171-f550bdd44dc1",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "4a687af6-b279-437f-b205-10d3605d4409"
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Douglass Kendrick-----",
+                "Activation": {
+                    "$eq": [
+                        "$b59ffb9e-fda4-4a51-8171-f550bdd44dc1",
+                        "Completed"
+                    ]
+                },
+                "Id": "b7096d98-c7f9-46f3-aa87-4cc66de8e8ef",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "dfed7fad-b5b2-475b-8cc3-e6a0b32a9f05"
+                    }
+                }
             }
         ],
         "Bricks": ["assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick"],
