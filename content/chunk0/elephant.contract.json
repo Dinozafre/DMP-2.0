@@ -1,0 +1,148 @@
+{ "SMF": {
+    "destinations": {
+        "addToDestinations": true,
+        "peacockIntegration": true
+        
+    }
+},
+    "Data": {
+        "EnableSaving": true,
+        "Objectives": [
+            {
+                "_comment": "--- Core ---",
+                "Id": "0a0ea850-25d2-4f2f-a1c2-164d98a5bd92",
+                "Category": "primary",
+                "ExcludeFromScoring": true,
+                "ObjectiveType": "custom",
+                "Image": "images/Elephant/core.jpg",
+                "BriefingName": "$loc UI_CONTRACT_ELEPHANT_NAME",
+                "LongBriefingText": "$loc UI_CONTRACT_ELEPHANT_DESC",
+                "BriefingText": "$loc UI_CONTRACT_ELEPHANT_TEXT",
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_ELEPHANT_NAME",
+                    "iconType": 17
+                },
+                "Type": "statemachine",
+                "Definition": {
+                    "Context": {                 
+                        "Targets": [
+                            "62dc7764-4861-44c5-b276-44d6c0dd68ce"
+                        ]
+                    },
+                    "Scope": "session",
+                    "States": {
+                        "Start": {
+                            "CoreSuccess": {
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                } 
+            },
+            {
+                "_comment": "----- Silent objective to trigger target elimination objective -----",
+                "IgnoreIfInactive": true,
+                "Id": "9dfe0ae6-4a7b-4d48-9581-91fff9fb9138",
+                "Type": "statemachine",
+                "Category": "condition",
+                "ExcludeFromScoring": true,
+                "OnActive": {
+                    "IfInProgress": {
+                        "Visible": true
+                    },
+                    "IfCompleted": {
+                        "Visible": false
+                    },
+                    "IfFailed": {
+                        "Visible": false
+                    }
+                },
+                "Definition": {
+                    "Scope": "session",
+                    "Context": {},
+                    "States": {
+                        "Start": {
+                            "Read": {
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "Bricks": [
+          "assembly:/_pro/scenes/missions/colombia/mission_elephant.brick"
+        ],
+        "DevOnlyBricks": [
+           
+        ],
+        "VR": [
+            {
+                "Quality": "base",
+                "Bricks": [
+                    "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                    "assembly:/_pro/scenes/missions/colombia/vr_overrides_hippo.brick",
+                    "assembly:/_PRO/scenes/missions/colombia/vr_overrides_ps4perf.brick"
+                ]
+            }
+        ],
+        "GameChangers": [],
+        "GameChangerReferences": [],
+        "GameDifficulties": [
+            {
+                "Difficulty": "easy",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/colombia/difficulty_easy_columbia_hippo.brick"
+                ]
+            },
+            {
+                "Difficulty": "normal",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "hard",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/colombia/difficulty_hard_columbia_hippo.brick"
+                ]
+            }
+        ],
+        "SimulationQualities": [
+            {
+                "Quality": "better",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/colombia/intel_6core_hippo.brick"
+                ]
+            },
+            {
+                "Quality": "best",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/colombia/intel_8core_hippo.brick"
+                ]
+            }
+        ]
+    },
+    "Metadata": {
+        "Id": "9c3ca54e-bdd4-4567-80fd-f16cb22159aa",
+        "IsPublished": true,
+        "TileImage": "images/contracts/hippo/tile.jpg",
+        "BriefingVideo": "briefing_hippo",
+        "DebriefingVideo": "debriefing_hippo",
+        "CreationTimestamp": "2016-12-15T16:27:35.423427+01:00",
+        "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+        "Title": "UI_CONTRACT_ELEPHANT_TITLE",
+        "Description": "UI_CONTRACT_ELEPHANT_DESC",
+        "CodeName_Hint": "Hippo",
+        "Location": "LOCATION_COLOMBIA",
+        "ScenePath": "assembly:/_pro/scenes/missions/colombia/scene_hippo.entity",
+        "Type": "mission",
+        "Release": "2.1.x",
+        "RequiredUnlockable": "ACCESS_HIT_HIPPO",
+        "Drops": [
+            "ACCESS_HIT_MONGOOSE"
+        ],
+        "Entitlements": [
+            "H2_LEGACY_STANDARD"
+        ]
+    },
+    "UserData": null
+}

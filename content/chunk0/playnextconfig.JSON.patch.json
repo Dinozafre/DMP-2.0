@@ -32,6 +32,38 @@
 					}
 				]
 			}
+		},
+		{
+			"op": "add",
+			"path": "/Contracts/2c8f8fd1-94df-4e69-b5db-56a8382cb228",
+			"value": {
+				"_NOTE": "Jaguar",
+				"NextItems": [
+					{
+						"CategoryType": "NextMission",
+						"ContentType": "Contract",
+						"Content": {
+							"Id": "9d9bd362-51c8-4e2c-9a73-7fd015ca7ede"
+						}
+					}
+				]
+			}
+		},
+		{
+			"op": "add",
+			"path": "/Contracts/9d9bd362-51c8-4e2c-9a73-7fd015ca7ede",
+			"value": {
+				"_NOTE": "elephant",
+				"NextItems": [
+					{
+						"CategoryType": "NextMission",
+						"ContentType": "Contract",
+						"Content": {
+							"Id": "9c3ca54e-bdd4-4567-80fd-f16cb22159aa"
+						}
+					}
+				]
+			}
 		}
 	]
 }

@@ -1,0 +1,36 @@
+{
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "75ccc5390d6324fa",
+                {
+                    "AddEventConnection": [
+                        "Completed",
+                        "Trigger",
+                        "feedaf86c17ac2a9"
+                    ]
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedaf86c17ac2a9",
+                {
+                    "blueprint": "[modules:/zcontractsevententity.class].pc_entityblueprint",
+                    "factory": "[modules:/zcontractsevententity.class].pc_entitytype",
+                    "name": "ContractsEvent",
+                    "parent": "7f4bfbad7530c62d",
+                    "properties": {
+                        "m_sName": {
+                            "type": "ZString",
+                            "value": "CoreSuccess"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6,
+    "tbluHash": "002E90AB4DEA1277",
+    "tempHash": "00EC22B946EA5FCD"
+}
