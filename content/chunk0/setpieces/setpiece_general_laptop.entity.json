@@ -377,14 +377,7 @@
 				},
 				"name_metricvalue": {
 					"type": "ZString",
-					"value": "\n      "
-				},
-				"m_rPromptTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00BB4FBB90C9C048",
-						"flag": "5F"
-					}
+					"value": "Hack"
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -392,18 +385,11 @@
 				},
 				"ONm_sPromptDescriptionText": {
 					"type": "ZString",
-					"value": "\n      "
+					"value": "Laptop"
 				},
 				"m_bApplyPromptDescriptionText": {
 					"type": "bool",
 					"value": true
-				},
-				"Onm_rPromptDescriptionTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "000B315DA71F8F68",
-						"flag": "5F"
-					}
 				},
 				"m_rPromptTextResourceOff": {
 					"type": "ZRuntimeResourceID",
@@ -417,10 +403,17 @@
 					"type": "ZRuntimeResourceID",
 					"value": null
 				},
-				"Offm_rPromptDescriptionTextResource": {
+				"m_rPromptDescriptionTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "000B315DA71F8F68",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_overridesecuritysystem.sweetline].pc_sweetline",
 						"flag": "5F"
 					}
 				},
