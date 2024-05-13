@@ -1,0 +1,163 @@
+{ 
+  "SMF": {
+    "destinations": {
+        "addToDestinations": true,
+        "peacockIntegration": true
+    }
+  },
+    "Data": {
+        "EnableSaving": true,
+        "Objectives": [
+            {
+                "Id": "597e3bd0-17a5-4272-aff1-d15dedbc729a",
+                "Category": "primary",
+                "ObjectiveType": "setpiece",
+                "BriefingName": "$loc UI_CONTRACT_WOLF_TALK_NAME",
+                "DisplayAsKillObjective": true,
+                "LongBriefingText": "$loc UI_CONTRACT_WOLF_TALK_TEXT",
+                "Image": "images/Wolf/WS_Zika_Sister_yulduz.jpg",
+                "TargetConditions": [],
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_WOLF_TALK_HUD"
+                },
+                "BriefingText": "$loc UI_CONTRACT_WOLF_TALK_TEXT",
+                "Type": "statemachine",
+                "Definition": {
+                    "Scope": "session",
+                    "States": {
+                        "Start": {
+                            "TalkDone": [
+                                {
+                                    "Transition": "Success" 
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "_comment": "Martinez is dead or pacified/scared",
+                "Id": "2f03f526-9767-47ea-a576-951470584554",
+                "Type": "statemachine",
+                "Category": "primary",
+                "OnActive": {
+                    "IfInProgress": {
+                        "Visible": false
+                    },
+                    "IfCompleted": {
+                        "Visible": false
+                    },
+                    "IfFailed": {
+                        "Visible": false
+                    }
+                },
+                "Definition": {
+                    "Scope": "session",
+                    "States": {
+                        "Start": {
+                            "DeadMartinez": [
+                                { 
+                                    "Transition": "Failure" 
+                                }
+                            ],
+                            "PacifiedMartinez": [
+                                {
+                                    "Transition":"Failure"
+                                }
+                            ],
+                            "MartinezScared": [
+                                {
+                                    "Transition":"Failure"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "_comment": "----- Eliminate Rico Delgado -----",
+                "Activation": {
+                    "$eq": [
+                        "$597e3bd0-17a5-4272-aff1-d15dedbc729a",
+                        "Completed"
+                    ]
+                },
+                "Id": "3850c956-f4c2-44b3-a2a6-a7f8d65eff50",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "e1f514dd-b22d-454d-ad34-d8cabe3ae372"
+                    }
+                }
+            }
+        ],
+        "Bricks": [
+            "assembly:/_pro/scenes/missions/miami/mission_wolf.brick"
+        ],
+        "VR": [
+            {
+                "Quality": "base",
+                "Bricks": [
+                    "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                    "assembly:/_pro/scenes/missions/miami/vr_overrides_flamingo.brick",
+                    "assembly:/_PRO/scenes/missions/miami/vr_overrides_ps4perf.brick"
+                ]
+            }
+        ],
+        "GameChangers": [],
+        "GameChangerReferences": [],
+        "GameDifficulties": [
+            {
+                "Difficulty": "easy",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/miami/difficulty_easy_miami_flamingo.brick"
+                ]
+            },
+            {
+                "Difficulty": "normal",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "hard",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/miami/difficulty_hard_miami_flamingo.brick"
+                ]
+            }
+        ],
+        "SimulationQualities": [
+            {
+                "Quality": "better",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/miami/scenario_flamingo_intel_6cores.brick"
+                ]
+            },
+            {
+                "Quality": "best",
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/miami/scenario_flamingo_intel_8cores.brick"
+                ]
+            }
+        ]
+    },
+    "Metadata": {
+        "Id":  "0d37e752-cf0a-49e2-98d9-9f29b665df22",
+        "IsPublished": true,
+        "TileImage": "images/Wolf/tile.jpg",
+        "CreationTimestamp": "2016-12-22T10:38:47.0308316+01:00",
+        "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+        "Title": "UI_CONTRACT_WOLF_TITLE",
+        "Description": "UI_CONTRACT_WOLF_DESC",
+        "CodeName_Hint": "Wolf",
+        "Location": "LOCATION_MIAMI",
+        "ScenePath": "assembly:/_pro/scenes/missions/miami/scene_flamingo.entity",
+        "Type": "mission",
+        "Drops": [
+            "ACCESS_HIT_HIPPO"
+        ],
+        "Entitlements": [
+            "H2_LEGACY_STANDARD"
+        ]
+    },
+    "UserData": null
+}

@@ -75,5 +75,16 @@
         "Outfit": "a383e616-6882-47c2-ac1d-c4085adfb4fb",
         "OutfitVariationIndex": 19,
         "Tile": "images/actors/default_target.png"
+    },
+    "e1f514dd-b22d-454d-ad34-d8cabe3ae372": {
+        "CharacterSetIndex": 0,
+        "Description": "WOLF_ACTOR_DESC",
+        "Description_LOC": "WOLF_ACTOR_DESC",
+        "ID_": "e1f514dd-b22d-454d-ad34-d8cabe3ae372",
+        "Image": "images/actors/wolf_target.jpg",
+        "Name": "Rico Delgado",
+        "Outfit": "41f3f5cd-1b4f-4b26-8b5d-dc55f9159799",
+        "OutfitVariationIndex": 9,
+        "Tile": "images/actors/default_target.png"
     }
 }

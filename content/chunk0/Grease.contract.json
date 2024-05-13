@@ -68,7 +68,10 @@
             "f4659b56-65c3-4f4f-8f20-11d09af2f2d2",
             "c7596e36-43ae-4e03-aa66-84f6a88f0cd3"
         ],
-        "AgencyPickups": []
+        "Stashpoints": [
+            "fbc4129a-db85-4c9e-9a4e-c17dedf8f514",
+            "5f62c1fa-fdbb-40e5-af7e-893c29925e88"
+        ]
     },
     "Metadata": {
         "Id": "d658bdf0-183d-463f-a479-235901912422",
@@ -85,7 +88,7 @@
         "Release": "2.9.x",
         "RequiredUnlockable": "",
         "Drops": [],
-        "Opportunities": [],
+        "OpportunitiesDisabled": true,
         "Entitlements": [
             "H2_LEGACY_STANDARD"
         ]

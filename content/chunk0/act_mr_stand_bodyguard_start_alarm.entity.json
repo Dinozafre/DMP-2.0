@@ -1,0 +1,258 @@
+{
+	"tempHash": "0000C47422F504BF",
+	"tbluHash": "00F8E25F431A66AA",
+	"rootEntity": "2ef544375fb84ada",
+	"entities": {
+		"efb550ee4faecc5a": {
+			"parent": "2ef544375fb84ada",
+			"name": "ActBehavior",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actbehavior.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actbehavior.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2.0233969688415527,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bAlignPosition": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_aApproachPath": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eState": {
+					"type": "ZActBehaviorEntity.EState",
+					"value": "IDLE"
+				},
+				"m_bIgnoreEndCollision": {
+					"type": "bool",
+					"value": true
+				},
+				"m_Color": {
+					"type": "SColorRGB",
+					"value": "#e600c1"
+				},
+				"m_rOrientToTransform": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_rAct": {
+					"type": "SEntityTemplateReference",
+					"value": "c153f3d439cfce5e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null,
+					"postInit": true
+				}
+			},
+			"outputCopying": {
+				"OnStart": {
+					"OnStart": [
+						"2ef544375fb84ada"
+					]
+				},
+				"OnReached": {
+					"OnReached": [
+						"2ef544375fb84ada"
+					]
+				},
+				"OnActDone": {
+					"OnActDone": [
+						"2ef544375fb84ada"
+					]
+				}
+			}
+		},
+		"c153f3d439cfce5e": {
+			"parent": "2ef544375fb84ada",
+			"name": "Childnetwork01",
+			"factory": "[assembly:/templates/markup/actorambience.template?/childnetworkact.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/markup/actorambience.template?/childnetworkact.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_RuntimeNetworkResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/animationnetworks/actors/acts/fullbody/maleregular/combat_hunt_acts/bodyguard_start_alarm.aln].pc_rtn",
+						"flag": "9F"
+					}
+				},
+				"m_bEnableAmbientLookat": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"2ef544375fb84ada": {
+			"parent": null,
+			"name": "Act_MR_Stand_Bodyguard_Start_Alarm",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2.0233969688415527,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bAlignPosition": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"inputCopying": {
+				"Start": {
+					"Start": [
+						"efb550ee4faecc5a"
+					]
+				}
+			},
+			"propertyAliases": {
+				"m_AlignRotation": [
+					{
+						"originalProperty": "m_AlignRotation",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_Color": [
+					{
+						"originalProperty": "m_Color",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_MovementType": [
+					{
+						"originalProperty": "m_MovementType",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_aApproachPath": [
+					{
+						"originalProperty": "m_aApproachPath",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_bAlignPosition": [
+					{
+						"originalProperty": "m_bAlignPosition",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_bAllowReactToSillyHitman": [
+					{
+						"originalProperty": "m_bAllowReactToSillyHitman",
+						"originalEntity": "c153f3d439cfce5e"
+					}
+				],
+				"m_bIgnoreEndCollision": [
+					{
+						"originalProperty": "m_bIgnoreEndCollision",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_eDebugState": [
+					{
+						"originalProperty": "m_eDebugState",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_eState": [
+					{
+						"originalProperty": "m_eState",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_fActTimeout": [
+					{
+						"originalProperty": "m_fActTimeout",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_pActor": [
+					{
+						"originalProperty": "m_pActor",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				],
+				"m_rOrientToTransform": [
+					{
+						"originalProperty": "m_rOrientToTransform",
+						"originalEntity": "efb550ee4faecc5a"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"IWaypoint": "efb550ee4faecc5a",
+				"ZSpatialEntity": "efb550ee4faecc5a",
+				"IBoolCondition": "efb550ee4faecc5a",
+				"ZActBehaviorEntity": "efb550ee4faecc5a"
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

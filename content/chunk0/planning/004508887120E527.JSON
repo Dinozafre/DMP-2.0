@@ -1,0 +1,97 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/coastaltown/beaver.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "249659f3-8989-4ffc-b727-4902e954605f",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-0.449549, 0.893256, 0, -0.893256, -0.449549, 0, 0, 0, 1, -82.24742, -77.9407, 16.11563"
+        },
+        {
+            "id": "8fd339e1-ea06-4aee-bd65-0c89b34e4e7e",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.989089, 0.147319, 0, -0.147319, 0.989089, 0, 0, 0, 1, -22.82309, -64.03595, 27.34859"
+        },
+        {
+            "id": "1021798e-cec1-4b43-ba33-69b7d53da867",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-1, 8.742278E-08, 0, -8.742278E-08, -1, 0, 0, 0, 1, -21.427, -11.28, 18.149"
+        },
+        {
+            "id": "a73d92c4-cd4b-4bd2-9485-943aa613a79c",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-0.407693, -0.913119, 0, 0.913119, -0.407693, 0, 0, 0, 1, 50.00584, -45.67337, 12.819"
+        },
+        {
+            "id": "495222ec-e8c9-416a-a41f-4bdfc3e6b80e",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "1E-06, 1, 0, -1, 1E-06, 0, 0, 0, 1, -47.90826, -43.33618, -0.316838"
+        },
+        {
+            "id": "c113315d-ffcc-4878-9e70-bb35aadf0211",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0, 1, 0, -1, 0, 0, 0, 0, 1, 26.53554, 11.51666, 16.73945"
+        },
+        {
+            "id": "1c386bb9-aead-42c0-b604-ad560056ddf4",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.173648, -0.984808, 0, 0.984808, 0.173648, 0, 0, 0, 1, -38.97278, 97.98643, 3.868727"
+        },
+        {
+            "id": "4970aae5-e4c1-4d5c-a66a-0fc06616211b",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.1736482, -0.9848077, 0, 0.9848077, 0.1736482, 0, 0, 0, 1, 68.108, -8.45, 32.6"
+        },
+        {
+            "id": "c27f76ca-ed71-4b2d-9b9d-693875df830c",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.7654383, 0.6435093, 0, -0.6435093, 0.7654383, 0, 0, 0, 1, -75.975, 63.711, -0.257"
+        },
+        {
+            "id": "a72bd197-f996-4e3b-b494-11f62296a2b3",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "0.53746, 0.843289, 0, -0.843289, 0.53746, 0, 0, 0, 1, -142.6404, -137.713, -1.282762"
+        }
+    ],
+    "Exits": [
+        {
+            "id": "518256aa-2a99-4367-82bd-0cadf0887c35",
+            "WorldTransform": "0.220853, -0.975307, 0, 0.975307, 0.220853, 0, 0, 0, 1, 62.15536, 67.42922, 6.68599",
+            "RequireKey": false
+        },
+        {
+            "id": "63317ff2-e1da-42f5-acba-da79dc18beb0",
+            "WorldTransform": "0.220853, -0.975307, 0, 0.975307, 0.220853, 0, 0, 0, 1, 62.15536, 67.42922, 6.68599",
+            "RequireKey": false
+        },
+        {
+            "id": "03c0f554-7d6f-4c7e-a374-342b8bde4f5a",
+            "WorldTransform": "-0.91182, 0.41059, 0, -0.41059, -0.91182, 0, 0, 0, 1, -121.5168, -28.45906, -0.871182",
+            "RequireKey": true
+        },
+        {
+            "id": "025e6f47-1819-49fb-8937-142452676532",
+            "WorldTransform": "-0.307448, 0.951565, 0, -0.951565, -0.307448, 0, 0, 0, 1, 29.21532, -94.72919, 12.74855",
+            "RequireKey": true
+        }
+    ],
+    "AgencyPickups": [
+        {
+            "id": "ad047285-a0c9-438d-b1e0-211ecbe47bda",
+            "WorldTransform": "0.999239, 0.01036, 0.037604, -0.039005, 0.265587, 0.963298, -7E-06, -0.964031, 0.265789, 16.08393, 15.72377, 16.88861",
+            "AllowOutfits": true,
+            "AllowLargerItems": true,
+            "UnlockedByDefault": true
+        }
+    ]
+}

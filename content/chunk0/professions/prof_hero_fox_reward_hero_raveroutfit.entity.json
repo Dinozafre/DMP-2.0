@@ -1,0 +1,87 @@
+{
+	"tempHash": "00C27B4011AF9421",
+	"tbluHash": "00CF45997AEC8A13",
+	"rootEntity": "f71425f431c9e65a",
+	"entities": {
+		"fca56a1c10f81af5": {
+			"parent": "f71425f431c9e65a",
+			"name": "OutfitProfession",
+			"factory": "[modules:/zoutfitprofessionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitprofessionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rKeywordProfession": {
+					"type": "SEntityTemplateReference",
+					"value": "c6e4bf1165e4001d",
+					"postInit": true
+				}
+			}
+		},
+		"c6e4bf1165e4001d": {
+			"parent": "f71425f431c9e65a",
+			"name": "Keyword_PROF_Fox_Reward_Hero_RaverOutfit",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "PROF_Fox_Reward_Hero_RaverOutfit"
+				},
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "f71425f431c9e65a",
+					"postInit": true
+				}
+			}
+		},
+		"f71425f431c9e65a": {
+			"parent": null,
+			"name": "Fox_Reward_Hero_RaverOutfit",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"propertyAliases": {
+				"m_aHolders": [
+					{
+						"originalProperty": "m_aHolders",
+						"originalEntity": "c6e4bf1165e4001d"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZKeywordEntity": "c6e4bf1165e4001d",
+				"ZOutfitProfessionEntity": "fca56a1c10f81af5"
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

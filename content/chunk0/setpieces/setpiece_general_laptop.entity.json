@@ -51,6 +51,18 @@
 						"originalProperty": "m_sId",
 						"originalEntity": "feed09c959e5f091"
 					}
+				],
+				"m_rPromptDescriptionTextResource": [
+					{
+						"originalProperty": "m_rPromptDescriptionTextResource",
+						"originalEntity": "feed09c959e5f091"
+					}
+				],
+				"m_rPromptTextResource": [
+					{
+						"originalProperty": "m_rPromptTextResource",
+						"originalEntity": "feed09c959e5f091"
+					}
 				]
 			},
 			"exposedEntities": {
@@ -354,10 +366,6 @@
 				"m_bIsOn": {
 					"type": "bool",
 					"value": false
-				},
-				"m_sTurnOnPromptText": {
-					"type": "ZString",
-					"value": "Manul pyro override"
 				},
 				"m_bIsToggleAction": {
 					"type": "bool",

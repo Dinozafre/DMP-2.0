@@ -81,7 +81,7 @@
                 "Category": "primary",
                 "Definition": {
                     "States": {
-                        "-": {
+                        "Start": {
                             "-": {
                                "Transition": "Success"
                             }
@@ -104,6 +104,20 @@
         "Bricks":[
             "assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick"
         ],
+        "GameDifficulties": [
+            {
+                "Difficulty": "easy",
+                "Bricks": ["assembly:/_pro/scenes/missions/coastaltown/easy_beaver.brick"]
+            },
+            {
+                "Difficulty": "normal",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "hard",
+                "Bricks": ["assembly:/_pro/scenes/missions/coastaltown/hard_beaver.brick"]
+            }
+        ],
         "Entrances": [
             "a73d92c4-cd4b-4bd2-9485-943aa613a79c",
             "c113315d-ffcc-4878-9e70-bb35aadf0211",
@@ -111,7 +125,6 @@
             "1c386bb9-aead-42c0-b604-ad560056ddf4",
             "c27f76ca-ed71-4b2d-9b9d-693875df830c"
         ]
-
     },
     "Metadata": {
         "Id": "2c8f8fd1-94df-4e69-b5db-56a8382cb228",

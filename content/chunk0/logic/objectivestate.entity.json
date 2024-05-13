@@ -1,0 +1,196 @@
+{
+	"tempHash": "00BED7FD99D52E52",
+	"tbluHash": "001BA87A190CAB87",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "ObjectiveState",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"propertyAliases": {
+				"m_ObjectiveFailed": [
+					{
+						"originalProperty": "m_bValue",
+						"originalEntity": "feed14ba742dab74"
+					}
+				],
+				"m_ObjectiveCompleted": [
+					{
+						"originalProperty": "m_bValue",
+						"originalEntity": "feede3779f562b41"
+					}
+				],
+				"m_ObjectiveId": [
+					{
+						"originalProperty": "m_ObjectviveId",
+						"originalEntity": "feede3779f562b41"
+					},
+					{
+						"originalProperty": "m_ObjectviveId",
+						"originalEntity": "feed14ba742dab74"
+					},
+					{
+						"originalProperty": "m_ObjectviveId",
+						"originalEntity": "feeddaed25519773"
+					}
+				],
+				"m_ObjectiveHudHit": [
+					{
+						"originalProperty": "m_eHintIcon",
+						"originalEntity": "feed657ed6785185"
+					}
+				],
+				"m_ObjectiveHintTextResource": [
+					{
+						"originalProperty": "m_pHintTextResource",
+						"originalEntity": "feed657ed6785185"
+					}
+				],
+				"m_objectiveGuid": [
+					{
+						"originalProperty": "m_objectiveGuid",
+						"originalEntity": "feed657ed6785185"
+					}
+				]
+			},
+			"inputCopying": {
+				"ShowHint": {
+					"Show": [
+						"feed657ed6785185"
+					]
+				},
+				"HideHint": {
+					"Hide": [
+						"feed657ed6785185"
+					]
+				}
+			}
+		},
+		"feeddaed25519773": {
+			"parent": "fffffffffffffffe",
+			"name": "Objective state",
+			"factory": "[modules:/zobjectivestateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zobjectivestateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_ObjectviveId": {
+					"type": "ZGuid",
+					"value": "00000000-0000-0000-0000-000000000000"
+				}
+			},
+			"outputCopying": {
+				"OnCompleted": {
+					"OnCompleted": [
+						"fffffffffffffffe"
+					]
+				},
+				"OnActive": {
+					"OnActive": [
+						"fffffffffffffffe"
+					]
+				},
+				"OnFailed": {
+					"OnFailed": [
+						"fffffffffffffffe"
+					]
+				}
+			}
+		},
+		"feede3779f562b41": {
+			"parent": "fffffffffffffffe",
+			"name": "Objective complete status",
+			"factory": "[modules:/zobjectivecompletedentity.class].pc_entitytype",
+			"blueprint": "[modules:/zobjectivecompletedentity.class].pc_entityblueprint",
+			"properties": {
+				"m_ObjectviveId": {
+					"type": "ZGuid",
+					"value": "00000000-0000-0000-0000-000000000000"
+				},
+				"m_bValue": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"outputCopying": {
+				"Triggered": {
+					"OnCompleted": [
+						"fffffffffffffffe"
+					]
+				}
+			}
+		},
+		"feed14ba742dab74": {
+			"parent": "fffffffffffffffe",
+			"name": "Objective failed status",
+			"factory": "[modules:/zobjectivefailedentity.class].pc_entitytype",
+			"blueprint": "[modules:/zobjectivefailedentity.class].pc_entityblueprint",
+			"properties": {
+				"m_ObjectviveId": {
+					"type": "ZGuid",
+					"value": "00000000-0000-0000-0000-000000000000"
+				},
+				"m_bValue": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"outputCopying": {
+				"Triggered": {
+					"OnFailed": [
+						"fffffffffffffffe"
+					]
+				}
+			}
+		},
+		"feed657ed6785185": {
+			"parent": "fffffffffffffffe",
+			"name": "ContractObjectiveHudHintEntity",
+			"factory": "[modules:/zcontractobjectivehudhintentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcontractobjectivehudhintentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sHintTextFallback": {
+					"type": "ZString",
+					"value": "The pigs are in the forest"
+				},
+				"m_eHintIcon": {
+					"type": "ZContractObjectiveHudHintEntity.EObjectiveHintIcon",
+					"value": "eMissionObjective"
+				},
+				"m_objectiveGuid": {
+					"type": "ZGuid",
+					"value": "816aa22b-832f-47f2-9e16-304e60544757"
+				},
+				"m_pHintTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

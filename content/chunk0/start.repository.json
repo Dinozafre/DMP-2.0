@@ -1,0 +1,9 @@
+{
+    "1f7441d5-2924-499c-a9d7-09408605a667": {
+        "Description": "ui_starting_location_mamba_start_day_desc",
+        "ID_": "1f7441d5-2924-499c-a9d7-09408605a667",
+        "Image": "Images/Entrances/Bangkok_entrance_47s_suite.jpg",
+        "Name": "Mamba Start Day",
+        "Name_LOC": "ui_starting_location_bangkok_mamba_start_day_name"
+    }
+}

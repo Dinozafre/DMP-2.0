@@ -64,6 +64,22 @@
 					}
 				]
 			}
+		},
+		{
+			"op": "add",
+			"path": "/Contracts/9c3ca54e-bdd4-4567-80fd-f16cb22159aa",
+			"value": {
+				"_NOTE": "elephant",
+				"NextItems": [
+					{
+						"CategoryType": "NextMission",
+						"ContentType": "Contract",
+						"Content": {
+							"Id": "0d37e752-cf0a-49e2-98d9-9f29b665df22"
+						}
+					}
+				]
+			}
 		}
 	]
 }

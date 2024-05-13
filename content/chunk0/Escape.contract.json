@@ -20,7 +20,7 @@
             {
                 "Difficulty": "hard",
                 "Bricks": [
-                    "assembly:/_PRO/Scenes/Missions/Bangkok/difficulty_pro1_bangkok_tiger.brick"
+                    "assembly:/_pro/scenes/missions/bangkok/override_hard.brick"
                 ]
             }
         ],
@@ -56,7 +56,9 @@
                 } 
             }
         ],
-        "Bricks": ["assembly:/_pro/scenes/missions/bangkok/mission_escape.brick"],
+        "Bricks": [
+            "assembly:/_pro/scenes/missions/bangkok/mission_escape.brick"
+        ],
         "VR": [
             {
                 "Quality": "base",
@@ -79,10 +81,11 @@
         "Title": "UI_CONTRACT_ESCAPE_TITLE",
         "Description": "UI_CONTRACT_ESCAPE_DESC",
         "TileImage": "images/Escape/title.jpg",
-        "CodeName_Hint": "Tiger",
-        "ScenePath": "assembly:/_PRO/Scenes/Missions/Bangkok/_Scene_Mission_Tiger.entity",
+        "CodeName_Hint": "Escape",
+        "ScenePath": "assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity",
         "Type": "mission",
         "Release": "1.4.x",
+        "OpportunitiesDisabled": true,
         "RequiredUnlockable": "ACCESS_HIT_TIGER",
         "Drops": [
             "ACCESS_HIT_BULL"

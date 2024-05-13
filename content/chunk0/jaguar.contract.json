@@ -1,10 +1,11 @@
-{    "SMF": {
-    "destinations": {
-        "addToDestinations": true,
-        "peacockIntegration": true
-        
-    }
-},
+{
+    "SMF": {
+        "destinations": {
+            "addToDestinations": true,
+            "peacockIntegration": true,
+            "narrativeContext": "Mission"
+        }
+    },
     "Data": {
         "EnableSaving": true,
         "Objectives": [
@@ -174,7 +175,9 @@
                 }
             }
         ],
-        "Bricks": ["assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick"],
+        "Bricks": [
+            "assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick"
+        ],
         "GameChangers": [],
         "EngineModesBricks": [
             {
@@ -258,5 +261,6 @@
                 ]
             }
         ]
-        },
-        "UserData": {}}
+    },
+    "UserData": {}
+}
