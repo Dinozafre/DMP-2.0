@@ -7,22 +7,33 @@
   },
     "Data": {
         "EnableSaving": true,
+        "EnableExits": {
+             "$eq": [
+                "$3850c956-f4c2-44b3-a2a6-a7f8d65eff50",
+                "Completed"
+            ]
+        },
         "Objectives": [
             {
                 "Id": "597e3bd0-17a5-4272-aff1-d15dedbc729a",
                 "Category": "primary",
-                "ObjectiveType": "setpiece",
+                "ObjectiveType": "custom",
                 "BriefingName": "$loc UI_CONTRACT_WOLF_TALK_NAME",
-                "DisplayAsKillObjective": true,
+                "ForceShowOnLoadingScreen": true,
                 "LongBriefingText": "$loc UI_CONTRACT_WOLF_TALK_TEXT",
-                "Image": "images/Wolf/WS_Zika_Sister_yulduz.jpg",
-                "TargetConditions": [],
+                "Image": "images/Wolf/talk.jpg",
                 "HUDTemplate": {
-                    "display": "$loc UI_CONTRACT_WOLF_TALK_HUD"
+                    "display": "$loc UI_CONTRACT_WOLF_TALK_NAME",
+                    "iconType": 17
                 },
                 "BriefingText": "$loc UI_CONTRACT_WOLF_TALK_TEXT",
                 "Type": "statemachine",
                 "Definition": {
+                    "Context": {
+                        "Targets": [
+                            "6fc03e67-32d0-4721-9655-de1f7bd76374"
+                        ]
+                    },
                     "Scope": "session",
                     "States": {
                         "Start": {
@@ -87,7 +98,7 @@
                 "SuccessEvent": {
                     "EventName": "Kill",
                     "EventValues": {
-                        "RepositoryId": "e1f514dd-b22d-454d-ad34-d8cabe3ae372"
+                        "RepositoryId": "c2519e4d-5cb7-4018-97b1-e01c99a656f8"
                     }
                 }
             }
