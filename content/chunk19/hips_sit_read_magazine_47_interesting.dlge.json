@@ -1,0 +1,14 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "[assembly:/localization/hitman6/conversations/miami/wolf_mission/wolf_story/hips_sit_read_magazine_47_interesting.sweetdialog].pc_dialogevent",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer": {
+        "type": "WavFile",
+        "wavName": "hips_sit_read_magazine_47_interesting",
+        "soundtag": "Voiceover_Handler",
+        "defaultWav": "006C3DA3D885924F",
+        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23414_deadlyart_47tattooistrandomresponse1_47_003.animset].pc_animset",
+        "languages": {}
+    }
+}
