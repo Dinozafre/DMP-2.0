@@ -41,7 +41,35 @@
 			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "Chief, I hope you remember our meeting upstairs? I'm ready to offer you a substantial sum for your people to stop breaking in on us!",
 			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Police officer",
 			"UI_CONTRACT_JAGUAR_TITLE": "Grim Reaper",
-			"UI_CONTRACT_JAGUAR_DESC": "Excellent work in Sapienza. I have a new assignment for you. The target is an official Douglass Kendrick. This person tried to stop our shipments to Austria. After three attempts to catch the bastard, he decided to escape to one of the weddings and hide in the mansion. In order to smoke him out, eliminate his colleagues and acquaintances. Good luck."
+			"UI_CONTRACT_JAGUAR_DESC": "Excellent work in Sapienza. I have a new assignment for you. The target is an official Douglass Kendrick. This person tried to stop our shipments to Austria. After three attempts to catch the bastard, he decided to escape to one of the weddings and hide in the mansion. In order to smoke him out, eliminate his colleagues and acquaintances. Good luck.",
+			"UI_INTEL_SAPIENZA_BEAVER_HANDYMAN_NAME": "Stefan Saigburt",
+			"UI_INTEL_SAPIENZA_BEAVER_HANDYMAN_DESC": "It seems that a handyman has come to town. His presence simplifies my purpose...",
+			"UI_CONTRACT_ELEPHANT_NAME": "Pick up anti-dot",
+			"UI_CONTRACT_ELEPHANT_DESC": "47 get poisoned, pick up anti-dot and used it",
+			"UI_CONTRACT_ELEPHANT_TEXT": "Pick up anti-dot and used it",
+			"UI_INTEL_LAPTOP_SEND_MASSAGE_RICO": "Send a massage",
+			"UI_CONTRACT_WOLF_PICKUP_COCAINE": "Taste cocaine",
+			"UI_CONTRACT_WOLF_OBJ_HELPER": "Martinez in one of the race team buildings",
+			"UI_CONTRACT_WOLF_TALK_NAME": "Talk with Martinez",
+			"UI_CONTRACT_WOLF_TALK_TEXT": "Martinez knew about Rico Delgado location, talk with her to reveal Rico's location",
+			"UI_DMP_USB_DRIVER_NAME": "Delgado's USB driver",
+            "UI_DMP_USB_DRIVER_DESC": "",
+            "UI_CHALLENGES_DMP2_MIAMI_KILL_RICO_MACHETE_NAME": "Surprise Present",
+            "UI_CHALLENGES_DMP2_MIAMI_KILL_RICO_MACHETE_DESC": "<li>Eliminate Rico Delgado with Machete</li>",
+            "UI_CHALLENGES_DMP2_MIAMI_PICKUP_MACHETE_NAME": "Present From Jungle",
+            "UI_CHALLENGES_DMP2_MIAMI_PICKUP_MACHETE_DESC": "<li>Steal machete from Rico Cabinet</li>",
+            "UI_CHALLENGES_DMP2_MIAMI_RICO_KILLED_NAME": "Chief of Cartel",
+            "UI_CHALLENGES_DMP2_MIAMI_RICO_KILLED_DESC": "<li>Eliminate Rico Delgado</li>",
+			"UI_CHALLENGES_DMP2_MUMBAI_DROWNTARGET_NAME": "Incident on the tower",
+			"UI_CHALLENGES_DMP2_MUMBAI_DROWNTARGET_DESC": "<li>Elminate Layton Cayne by drown</li>",
+			"UI_CHALLENGES_DMP2_MUMBAI_LAYTON_KILLED_NAME": "Ex-Member",
+			"UI_CHALLENGES_DMP2_MUMBAI_LAYTON_KILLED_DESC": "<li>Eliminate Layton Cayne</li>",
+			"UI_CHALLENGES_DMP2_SAPIENZA_MEETING_NAME": "Meeting Is Finnaly Here",
+			"UI_CHALLENGES_DMP2_SAPIENZA_MEETING_DESC": "<li>Orginize meeting with target wearing in Police Cheif disguise</li>",
+			"UI_CHALLENGES_DMP2_BANGKOK_ESCAPE_UNDETECTED_NAME": "Remebmer Old Times",
+			"UI_CHALLENGES_DMP2_BANGKOK_ESCAPE_UNDETECTED_DESC": "<li>Complete mission without getting spotted</li>",
+			"UI_CHALLENGES_DMP2_MUMBAI_POISONTARGET_NAME": "Old Times",
+			"UI_CHALLENGES_DMP2_MUMBAI_POISONTARGET_DESC": "<li>Poison target by sushi</li>"
 		},
 		"french": {},
 		"italian": {},
@@ -74,7 +102,36 @@
 			"UI_INTEL_BEAVER_INVESTEGATE_DESC": "Начальник, я надеюсь что вы помните о нашей встрече наверху? Я готов дать вам большую сумму за то что ваши люди перестанут ломиться к нам!",
 			"UI_DISSMISSED_POLICE_OFFICER_DESC": "Офицер полиции",
 			"UI_CONTRACT_JAGUAR_TITLE": "Смерть с косой",
-			"UI_CONTRACT_JAGUAR_DESC": "Отлично поработал в Сапиенце. У меня для тебя новое задание. Цель - чиновник Douglass Kendrick. Данная персона пыталась остановить наши поставки в Австрию. После трёх попыток поймать мерзавца, он решил сбежать на одну из свадьб и спрятаться в особняке. Для того, чтобы его выкурить, устрани его коллег и знакомых. Удачи."
+			"UI_CONTRACT_JAGUAR_DESC": "Отлично поработал в Сапиенце. У меня для тебя новое задание. Цель - чиновник Douglass Kendrick. Данная персона пыталась остановить наши поставки в Австрию. После трёх попыток поймать мерзавца, он решил сбежать на одну из свадьб и спрятаться в особняке. Для того, чтобы его выкурить, устрани его коллег и знакомых. Удачи.",
+			"UI_INTEL_SAPIENZA_BEAVER_HANDYMAN_NAME": "Стефан Сайгбёрт",
+			"UI_INTEL_SAPIENZA_BEAVER_HANDYMAN_DESC": "Похоже что в город явился ремонтник. Его наличие упрощает мою цель...",
+			"UI_CONTRACT_ELEPHANT_NAME": "Избавиться от яда",
+			"UI_CONTRACT_ELEPHANT_DESC": "Необходимо избавиться от яда, который вкололи 47-му, заберите укол и вколите себе противоядие его",
+			"UI_CONTRACT_ELEPHANT_TEXT": "Заберите противоядие от яда и вколите его в себя",
+			"UI_INTEL_LAPTOP_SEND_MASSAGE_RICO": "Отправить сообщение",
+			"UI_CONTRACT_WOLF_PICKUP_COCAINE": "Попробовать кокаин",
+			"UI_CONTRACT_WOLF_OBJ_HELPER": "Мартинез находится в одном из здании гоночных комманд",
+			"UI_CONTRACT_WOLF_TALK_NAME": "Поговорить с Мартинез",
+			"UI_CONTRACT_WOLF_TALK_TEXT": "Мартинез знает точное местополежние Рико Дельгадо, поговорите с ней для раскрытия деталей о местополажении Рико.",
+			"UI_DMP_USB_DRIVER_NAME": "Флешка Дельгадо",
+            "UI_DMP_USB_DRIVER_DESC": "",
+            "UI_CHALLENGES_DMP2_MIAMI_KILL_RICO_MACHETE_NAME": "Внезапный подарок",
+            "UI_CHALLENGES_DMP2_MIAMI_KILL_RICO_MACHETE_DESC": "<li>Устраните Рико Дельгадо с помощью Мачете</li>",
+            "UI_CHALLENGES_DMP2_MIAMI_PICKUP_MACHETE_NAME": "Подарок из джунглей",
+            "UI_CHALLENGES_DMP2_MIAMI_PICKUP_MACHETE_DESC": "<li>Украдите мачете с полки</li>",
+            "UI_CHALLENGES_DMP2_MIAMI_RICO_KILLED_NAME": "Глава Картеля",
+            "UI_CHALLENGES_DMP2_MIAMI_RICO_KILLED_DESC": "<li>Устраните Рико Дельгадо</li>",
+			"UI_CHALLENGES_DMP2_MUMBAI_DROWNTARGET_NAME": "Инцидент в Башне Роджана",
+			"UI_CHALLENGES_DMP2_MUMBAI_DROWNTARGET_DESC": "<li>Утопите Лейтона в Башне Роджана",
+			"UI_CHALLENGES_DMP2_MUMBAI_LAYTON_KILLED_NAME": "Предатель",
+			"UI_CHALLENGES_DMP2_MUMBAI_LAYTON_KILLED_DESC": "<li>Устраните Лейтона Кейна</li>",
+			"UI_CHALLENGES_DMP2_SAPIENZA_MEETING_NAME": "Встреча сбылась",
+			"UI_CHALLENGES_DMP2_SAPIENZA_MEETING_DESC": "<li>Организуйте встречу с целью в костюме начальника полиции</li>",
+			"UI_CHALLENGES_DMP2_BANGKOK_ESCAPE_UNDETECTED_NAME": "Вспомнить старые времена",
+			"UI_CHALLENGES_DMP2_BANGKOK_ESCAPE_UNDETECTED_DESC": "<li>Завершите миссию без какого либо привлеченния внимания к себе</li>",
+			"UI_CHALLENGES_DMP2_MUMBAI_POISONTARGET_NAME": "Старые деньки",
+			"UI_CHALLENGES_DMP2_MUMBAI_POISONTARGET_DESC": "<li>Отравите цель Роллами</li>"
+
 		},
 		"chineseSimplified": {
 			"UI_CONTRACT_GREASE_TITLE": "名流",
@@ -133,7 +190,11 @@
 		"japanese": {}
 	},
 	"loadAfter": [],
-	"localisedLines": {},
+	"localisedLines": {
+		"00660F9B9885F451": "UI_CONTRACT_WOLF_OBJ_HELPER",
+		"00615E06A08B0D28": "UI_DMP_USB_DRIVER_DESC",
+		"009006449F804553": "UI_DMP_USB_DRIVER_NAME"
+	},
 	"packagedefinition": [
 		{
 			"type": "entity",
@@ -184,8 +245,29 @@
 			"type": "entity",
 			"partition": "hawk",
 			"path": "[assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "colombia",
+			"path": "[assembly:/_pro/scenes/missions/colombia/mission_elephant.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/miami/mission_wolf.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/miami/mission_hard_wolf.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "miami",
+			"path": "[assembly:/_pro/scenes/missions/miami/mission_easy_wolf.brick].entitytype"
 		}
 	],
+	"peacockPlugins": ["dmp2.plugin.js"],
 	"dependencies": [
 		"0007BD00E94A6EFB",
 		"008C3C2BCB150DEC",
@@ -203,10 +285,6 @@
 		"0059446AC129064E",
 		"00B9CCDF502FEC89",
 		"00D0648215404731",
-		"006B9C226D811A95",
-		"005D1B47A05D6BDD",
-		"00910FB9B7F45905",
-		"006A9BDEDFCF3213",
 		"0040115A788C07A9",
 		"007D7292004A2CBA",
 		"006437858B4B41F1",
@@ -219,6 +297,39 @@
 		"0012EA4CD54CDBD4",
 		"001C2063E4256C16",
 		"005EACACF8C973DD",
+		"00E43E9DD30F2935",	
+		"004B8C6BD1A2A196",
+		"007B239CD190804D",
+		"00B31CFEBDABAB01",
+		"00F91E4951494D71",
+		"004736C07537EE24",
+		"00EEC9DF530A0BA7",
+		"006531604E0E79FA",
+		"00A9C8CE27437EB2",
+		"005D073DD15A51A9",
+		"0020A5980EFFA8A3",
+		"00682A88A7ECC725",
+		"00ED779659A681AA",
+		{
+			"runtimeID": "004F5FFA5651FB35",
+			"comment": "starfield",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00EA33BD94BD2577",
+			"comment": "Moon",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00FA593C54570ABE",
+			"comment": "Moon text",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00A47BD7D49620A3",
+			"comment": "Moon text",
+			"toChunk": 1
+		},
 		{
 			"runtimeID": "00B8E5B83D2CE709",
 			"toChunk": 17,
@@ -233,12 +344,20 @@
 			"toChunk": 26
 		},
 		{
-			"runtimeID": "008DE5788C65E2BC",
+			"runtimeID": "0040B4165AA2B236",
 			"toChunk": 8
 		},
 		{
-			"runtimeID": "007F7EB288B66E9C",
+			"runtimeID": "003B9E5A953C3723",
 			"toChunk": 8
+		},
+		{
+			"runtimeID": "005594B3A9156051",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00C2E99E61A06727",
+			"toChunk": 1
 		}
 	]
 }

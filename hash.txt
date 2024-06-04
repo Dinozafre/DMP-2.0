@@ -1,0 +1,131 @@
+0049BF9813506DB8.TEMP,Mission_Grease.brick.pc_entitytype
+00E3391D26BAD821.TBLU,Mission_Grease.brick.pc_entityblueprint
+00A7EE1DF0D94245.TEMP,[assembly:/_pro/scenes/missions/mumbai/mission_grease.brick].pc_entitytype
+00EB8C06C53C8860.TBLU,[assembly:/_pro/scenes/missions/mumbai/mission_grease.brick].pc_entityblueprint
+00C17CD21F1968AE.WWES,[assembly:/sound/wwise/originals/voices/english(us)/mumbai/25003_grease/25003_story/dr00001_jordancross_follow_me.wav].pc_wes
+0000EBD99ADEE51F.DLGE,[assembly:/localization/hitman6/conversationsmumbai/25003_grease/25003_story/dr00001_jordancross_follow_me.sweetdialog].pc_dialogevent
+00776CFC8C9E226F.TEMP,[assembly:/_pro/scenes/missions/mumbai/mission_grease_pro1.brick].pc_entitytype
+00075D1FDFF5A1F2.TBLU,[assembly:/_pro/scenes/missions/mumbai/mission_grease_pro1.brick].pc_entityblueprint
+001C8F45C990CC49.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/delgado_intel_headline.sweetline].pc_sweetline
+00C544B3589C582C.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/delgado_intel_text.sweetline].pc_sweetline
+00027D26E2AE727A.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/images/intel/mumbai/phone_1.jpg].pc_gfx
+0018FA23D0FA9826.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/images/intel/mumbai/phone_2.jpg].pc_gfx
+002692106D239238.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/images/intel/mumbai/phone_3.jpg].pc_gfx
+00742B6D0910D1AC.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-50-36.jpg].pc_gfx
+00E2FBEE97CF7FD1.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-50-39.jpg].pc_gfx
+00537882A63B7847.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-51-02.jpg].pc_gfx
+003139DD92CA0EFA.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-51-05.jpg].pc_gfx
+0027FFD89B85DA6C.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-54-04.jpg].pc_gfx
+00B04AD02703D987.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-55-57.jpg].pc_gfx
+004D2472A02EE52E.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-55-58.jpg].pc_gfx
+0092D0C2E4BF3565.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-57-25.jpg].pc_gfx
+00DE5840490380B3.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-58-48.jpg].pc_gfx
+0003DC90544ABEBC.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 10-59-49.jpg].pc_gfx
+00C6685DFCA302A5.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 11-00-30.jpg].pc_gfx
+0028DFBB0D338E16.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 11-00-48.jpg].pc_gfx
+00CD9BE0A6BF2071.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 11-01-58.jpg].pc_gfx
+0076F99B2C2E795D.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 11-02-10.jpg].pc_gfx
+0020563C2AB1E992.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/screenshots/hitman3 2023-11-08 11-02-53.jpg].pc_gfx
+00DCDF2C5DB0C0AE.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/missions/titles/Grease_title.sweetline].pc_sweetline
+00F2C74B5BFC2267.TBLU,[assembly:/_pro/scenes/missions/mumbai/mission_grease_easy.brick].pc_entityblueprint
+003865DF05AE459E.TEMP,[assembly:/_pro/scenes/missions/mumbai/mission_grease_easy.brick].pc_entitytype
+003777F2FCB00BD8.TEMP,[assembly:/_pro/scenes/missions/bangkok/mission_escape.brick].pc_entitytype
+00D2CB0847E88662.TBLU,[assembly:/_pro/scenes/missions/bangkok/mission_escape.brick].pc_entityblueprint
+00A3F99AAFC2F40D.WWEM,[assembly:/sound/wwise/originals/sfx/thomas_bartschi_peter_peter__peter_kyed_ost_hitman__absolution_terminus_escape_10C4C929.wav].pc_wem
+008053EDA43CF53A.WWEV,[assembly:/sound/wwise/exportedwwisedata/events/sfx/thomas_bartschi_peter_peter__peter_kyed_ost_hitman__absolution_terminus_escape_10C4C929.wwiseevent].pc_wwisebank
+007E6FAEBA96900C.DLGE,[assembly:/localization/hitman6/conversations/bangkok/absolution_soundtrack.sweetdialogitem].pc_dialogevent
+005D3ED502266670.WWES,[assembly:/sound/wwise/originals/sfx/thomas_bartschi_peter_peter__peter_kyed_ost_hitman__absolution_terminus_escape_10C4C929.wav].pc_wes
+00276C691A4D57B3.TEMP,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_general_laptop.entitytemplate].pc_entitytype
+0053D080FAA2B004.TBLU,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_general_laptop.entitytemplate].pc_entityblueprint
+00CA2F2C66E5BF80.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_propane.entitytemplate].pc_entitytype
+00A8482B7148EF99.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_propane.entitytemplate].pc_entityblueprint
+008F317FC6E3D1F5.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_pride_saber.entitytemplate].pc_entitytype
+00BE9F3148209BB9.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_pride_saber.entitytemplate].pc_entityblueprint
+00B67027D78624B7.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_inspectcrates.entitytemplate].pc_entitytype
+00C117616ECF1455.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_inspectcrates.entitytemplate].pc_entityblueprint
+0036B100C5FCF5D4.TEMP,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_faberge_egg.entitytemplate].pc_entitytype
+00968276D3E4E34C.TBLU,[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_faberge_egg.entitytemplate].pc_entityblueprint
+0092914701F764C4.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_intel_object_laptop_name.sweetline].pc_sweetline
+00BA6C16F444B734.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_intel_object_laptop_desc.sweetline].pc_sweetline
+003CECA4EE16ED55.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_complete_intel_object_laptop_name.sweetline].pc_sweetline
+00337577ACB68ECD.LINE,[assembly:/localization/hitman6/conversations/ui/pro/online/intel/camera_scan_complete_intel_object_laptop_desc.sweetline].pc_sweetline
+00E3062CC5DE13BC.TEMP,[assembly:/_pro/scenes/missions/bangkok/override_ambient_kitchen.brick].pc_entitytype
+00F36FA81928E248.TBLU,[assembly:/_pro/scenes/missions/bangkok/override_ambient_kitchen.brick].pc_entityblueprint
+008AC774E9FF098D.JSON,(planning_contract) tiger_upload
+00EFA1A17AD491EC.TEMP,[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].pc_entitytemplate
+005CFD738D683F35.TBLU,[assembly:/_pro/scenes/missions/bangkok/_scene_mission_tiger_upload.entity].pc_entityblueprint
+00CD84F552454D99.TEMP,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_gamechanger_unique_hm_proximity_s3_cx.entitytemplate].pc_entitytype
+002917447C4168A1.TBLU,[assembly:/_pro/design/setpieces/unique/setpiece_gamechangers_unique.template?/setpiece_gamechanger_unique_hm_proximity_s3_cx.entitytemplate].pc_entityblueprint
+003B11ABF1E9820F.TEMP,[assembly:/_pro/design/actor/profession.template?/prof_paris_noel_unique_thief02.entitytemplate].pc_entitytype
+00B5C51BC5AD2FB9.TBLU,[assembly:/_pro/design/actor/profession.template?/prof_paris_noel_unique_thief02.entitytemplate].pc_entityblueprint
+002FC8611C409818.TEMP,[assembly:/_pro/characters/templates/greenland/char_greenland_unique.template?/charset_erichsodersyoung.entitytemplate].pc_entitytype
+00E7954ECF3D59BE.TBLU,[assembly:/_pro/characters/templates/greenland/char_greenland_unique.template?/charset_erichsodersyoung.entitytemplate].pc_entityblueprint
+00F47AB2E8E36F4B.TEMP,[assembly:/_pro/design/actor/profession.template?/prof_greenland_unique_erichsoders.entitytemplate].pc_entitytype
+00A2771DE0DC2BC2.TBLU,[assembly:/_pro/design/actor/profession.template?/prof_greenland_unique_erichsoders.entitytemplate].pc_entityblueprint
+005726DE435031EF.TEMP,[assembly:/_pro/scenes/missions/bangkok/remove_npcs.brick].pc_entitytype
+0034C612D8A61627.TBLU,[assembly:/_pro/scenes/missions/bangkok/remove_npcs.brick].pc_entityblueprint
+00D3B59FFCC1C7DC.TEMP,[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/charset_sheep_unique_victim.entitytemplate].pc_entitytype
+009741B7AC478057.TBLU,[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/charset_sheep_unique_victim.entitytemplate].pc_entityblueprint
+00F28A7BDFD64883.TEMP,[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/charset_sheep_unique_victim_m.entitytemplate].pc_entitytype
+00C0D4F4DF568AEA.TBLU,[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/charset_sheep_unique_victim_m.entitytemplate].pc_entityblueprint
+00B1C22F4FE7CF9C.TEMP,[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/charset_sheep_unique_victim_f.entitytemplate].pc_entitytype
+004B9BE648F1AD53.TBLU,[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/charset_sheep_unique_victim_f.entitytemplate].pc_entityblueprint
+0046D550B5631F53.WWEV,[assembly:/sound/wwise/exportedwwisedata/events/sfx_ambients/sfx_ambient/bangkok_ambient.wwiseevent].pc_wwisebank
+00049E3B5375970B.LINE,[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_demetrioricardo.sweetline].pc_sweetline
+0005BC6DB12168CF.TEMP,[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype
+0008229D6BF68734.TBLU,[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entityblueprint
+00EC2A60FA5257A1.TEMP,[assembly:/_pro/scenes/missions/bangkok/override_hard.brick].pc_entitytype
+0035E0A5227326DB.TBLU,[assembly:/_pro/scenes/missions/bangkok/override_hard.brick].pc_entityblueprint
+00ADB944CE515632.TEMP,[assembly:/_pro/scenes/missions/coastaltown/beaver.entity].pc_entitytemplate
+0043EA41A8D6A1FB.TBLU,[assembly:/_pro/scenes/missions/coastaltown/beaver.entity].pc_entityblueprint
+004508887120E527.JSON,(planning_contract) beaver
+00C27B4011AF9421.TEMP,[assembly:/_pro/design/actor/profession.template?/prof_hero_fox_reward_hero_raveroutfit.entitytemplate].pc_entitytype
+00CF45997AEC8A13.TBLU,[assembly:/_pro/design/actor/profession.template?/prof_hero_fox_reward_hero_raveroutfit.entitytemplate].pc_entityblueprint
+0072A14EB2232754.DLGE,[assembly:/localization/hitman6/conversations/ai/caruso/gen_reveal_сhief_song.sweetdialog].pc_dialogevent
+0052477FEEDE0453.DLGE,[assembly:/localization/hitman6/conversations/ai/caruso/gen_reveal_сhief_peaceful.sweetdialog].pc_dialogevent
+00B6305D92AC9B8C.DLGE,[assembly:/localization/hitman6/conversations/ai/priest_male/gen_reveal_priest_talk_cop.sweetdialog].pc_dialogevent
+008D187907E501B0.LINE,ui_intel_beaver_investegate_name
+00C5E39C271F68BA.LINE,ui_intel_beaver_investegate_desc
+009BF0761A5FFF0D.TEMP,[assembly:/_pro/scenes/missions/coastaltown/hard_beaver.brick].pc_entitytype
+00337C478D3472EA.TBLU,[assembly:/_pro/scenes/missions/coastaltown/hard_beaver.brick].pc_entityblueprint
+0036598B45BF1B49.TEMP,[assembly:/_pro/scenes/missions/coastaltown/easy_beaver.brick].pc_entitytype
+00FA5E45BC772700.TBLU,[assembly:/_pro/scenes/missions/coastaltown/easy_beaver.brick].pc_entityblueprint
+00696A1FABC6D3A7.TEMP,[assembly:/_pro/scenes/missions/hawk/override_hawk.brick].pc_entitytype
+0094BC87E73847C6.TBLU,[assembly:/_pro/scenes/missions/hawk/override_hawk.brick].pc_entityblueprint
+00935A61AD8AD337.TEMP,[assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick].pc_entitytype
+00400BC506BBDDE2.TBLU,[assembly:/_pro/scenes/missions/hawk/mission_jaguar.brick].pc_entityblueprint
+00A286B775B084C1.TEMP,[assembly:/_pro/scenes/missions/colombia/mission_elephant.brick].pc_entitytype
+00A11DB169E5DF39.TBLU,[assembly:/_pro/scenes/missions/colombia/mission_elephant.brick].pc_entityblueprint
+0000C47422F504BF.TEMP,[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_bodyguard_start_alarm.entitytemplate].pc_entitytype
+00F8E25F431A66AA.TBLU,[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_bodyguard_start_alarm.entitytemplate].pc_entityblueprint
+00B11BF6B82FDFA8.WWES,[assembly:/sound/wwise/originals/voices/english(us)/marrakech/6000_coup/6000_story/dr6184_officer47cellguards_47_001_short.wav].pc_wes
+004C0F44F69AC644.LINE,ui_intel_sapienza_beaver_handyman_name
+00AF3FFD3CF00618.LINE,ui_intel_sapienza_beaver_handyman_desc
+006752535613FF17.TEMP,[assembly:/_pro/environment/geometry/props/food/burger.wl2?/burger_complete_a.linkedprim].pc_entitytype
+0002C2AC6EBAA112.TEMP,[assembly:/_pro/scenes/missions/colombia/outfits_elephant.brick].pc_entitytype
+004C0F6240025920.TBLU,[assembly:/_pro/scenes/missions/colombia/outfits_elephant.brick].pc_entityblueprint
+003DA21F39963CF3.TEMP,[assembly:/_pro/scenes/missions/miami/mission_wolf.brick].pc_entitytype
+0043DCD3C708C908.TBLU,[assembly:/_pro/scenes/missions/miami/mssion_wolf.brick].pc_entityblueprint
+002681D5866C6BCE.LINE,ui_intel_laptop_send_massage_rico
+00040C2296723282.DLGE,[assembly:/localization/hitman6/conversations/marrakech/6000_coup/6000_story/dr6184_officer47cellguards.sweetdialog?/dr6184_officer47cellguards_47_001_short.sweetdialogitem].pc_dialogevent
+00557D189AE63A6E.TEMP,[assembly:/localization/hitman6/conversations/dmp2_dialogs/Sapienza/dismissed_47.sweetdialog].pc_entitytype
+00D68214AE47A665.TBLU,[assembly:/localization/hitman6/conversations/dmp2_dialogs/Sapienza/dismissed_47.sweetdialog].pc_entityblueprint
+009CF254C8578B51.WWES,[unknown:/sound/wwise/originals/voices/unknown/Snake_Eye.wav].pc_wes (755F56E2)
+00BED7FD99D52E52.TEMP,[assembly:/_pro/design/logic/objectives.template?/objectivestate.entitytemplate].pc_entitytype
+001BA87A190CAB87.TBLU,[assembly:/_pro/design/logic/objectives.template?/objectivestate.entitytemplate].pc_entityblueprint
+00647E6F91ACC13B.LINE,ui_contract_wolf_objective_597e3bd0-17a5-4272-aff1-d15dedbc729a_helper
+006C3DA3D885924F.WWES,[assembly:/sound/wwise/originals/voices/english(us)/miami/wolf_mission/wolf_story/hips_sit_read_magazine_47_interesting.wav].pc_wes (073B4D0C)
+00E191D826F6031C.DLGE,[assembly:/localization/hitman6/conversations/miami/wolf_mission/wolf_story/hips_sit_read_magazine_47_interesting.sweetdialog].pc_dialogevent
+00AD9D51C6DD76F1.LINE,ui_contract_wolf_pickup_cocaine
+00D5F51502C1BADC.TEMP,[assembly:/_pro/design/setpieces/unique/setpiece_dmp2.template?/setpiece_miami_cocaine_pickup.entitytemplate].pc_entitytype
+00F7B621650F8A86.TBLU,[assembly:/_pro/design/setpieces/unique/setpiece_dmp2.template?/setpiece_miami_cocaine_pickup.entitytemplate].pc_entityblueprint
+00660F9B9885F451.LINE,ui_contract_wolf_obj_helper
+0077A1966762C06E.TBLU,[assembly:/_pro/design/setpieces/setpieces_traps_poison.template?/setpiece_trap_burger_a.entitytemplate].pc_entityblueprint
+00561057A3500860.TEMP,[assembly:/_pro/design/setpieces/setpieces_traps_poison.template?/setpiece_trap_burger_a.entitytemplate].pc_entitytype
+00E10A01CA241643.TEMP,[assembly:/_pro/scenes/missions/miami/mission_hard_wolf.brick].pc_entitytype
+00C3E83E8871DFFF.TBLU,[assembly:/_pro/scenes/missions/miami/mission_hard_wolf.brick].pc_entityblueprint
+0011EB7DB3A1D66E.TEMP,[assembly:/_pro/scenes/missions/miami/mission_easy_wolf.brick].pc_entitytype
+0045886D0233F48B.TBLU,[assembly:/_pro/scenes/missions/miami/mission_easy_wolf.brick].pc_entityblueprint
+00615E06A08B0D28.LINE,dmp_questitems_usbdrive_desc
+009006449F804553.LINE,dmp_questitems_usbdrive_title
+00D08ACE68EA4A43.LOCR,[assembly:/localization/hitman6/conversations/ui/pro/online/repository/dmp2_items.sweetmenutext].pc_localized-textlist
