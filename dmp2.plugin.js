@@ -1018,6 +1018,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
             "Icon": "challenge_category_assassination",
             "LocationId": "LOCATION_PARENT_MUMBAI",
             "ParentLocationId": "LOCATION_PARENT_MUMBAI",
+            "CategoryId": "assassination",
             "Type": "contract",
             "DifficultyLevels": [],
             "OrderIndex": 10000,
@@ -1032,7 +1033,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                                  "$and": {
                                     "$eq": [
                                         "$Value.RepositoryId",
-                                        "f97447b3-502c-416e-ad36-0a8ea085ada2"
+                                        "20715eb7-e8b5-443c-a316-fa1edd0954e0"
                                     ],
                                     "$eq": [
                                         "$Value.KillMethodStrict",
@@ -1045,7 +1046,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                     }
                 }
             },
-            "Tags": ["story", "assasinations"],
+            "Tags": ["story", "assasination"],
             "InclusionData": {
                 "ContractIds": ["d658bdf0-183d-463f-a479-235901912422"]
             }
@@ -1059,7 +1060,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                 {
                     Id: "15cc5333-63da-4622-87f3-8c17652459ed",
                     Name: "UI_CHALLENGES_DMP2_MIAMI_PICKUP_MACHETE_NAME",
-                    ImageName: "images/challenges/DMP2/miami_pickup_machete.jpg",
+                    ImageName: "images/challenges/DMP2/miami_pickup_machete2.jpg",
                     Description: "UI_CHALLENGES_DMP2_MIAMI_PICKUP_MACHETE_DESC",
                     Rewards: {
                         MasteryXP: 2000
@@ -1100,9 +1101,11 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                     "ImageName": "images/actors/wolf_target.jpg",
                     "Description": "UI_CHALLENGES_DMP2_MIAMI_RICO_KILLED_DESC",
                     "Rewards": {
-                        "MasteryXP": 4000
+                        "MasteryXP": 0
                     },
-                    "Drops": [],
+                    "Drops": [
+                        "PROP_POISON_LETHAL_FLOWER"
+                    ],
                     "IsPlayable": true,
                     "CategoryId": "targets",
                     "IsLocked": false,
@@ -1119,7 +1122,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                     "Definition": {
                         "Scope": "hit",
                         "States": {
-                            "Start": {
+                         "Start": {
                              "Kill": {
                                  "Condition": {
                                     "$eq": [
@@ -1127,7 +1130,8 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                                         "c2519e4d-5cb7-4018-97b1-e01c99a656f8"
                                     ],
                                     "Transition": "Success"
-                                  }}
+                                  }
+                            }
                             }
                         }
                     },
@@ -1262,7 +1266,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                 },
                 ///target get poisoned from sushi
                 {
-                    "Id": "e8a19769-3576-4396-a1c4-3729c65cc90a",
+                    "Id": "a2ea834c-703a-4628-b4ba-e2cc1c1e2e43",
                     "Name": "UI_CHALLENGES_DMP2_MUMBAI_POISONTARGET_NAME",
                     "ImageName": "images/challenges/DMP2/mumbai_poison_layton_cane.jpg",
                     "Description": "UI_CHALLENGES_DMP2_MUMBAI_POISONTARGET_DESC",
@@ -1285,19 +1289,13 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                     "Definition": {
                         "Scope": "session",
                         "States": {
-                            "Start": {
-                                "47PoisonSushi": {
-                                    "Transition": "CheckTarget"
-                                }
-                            },
-                            "CheckTarget": {
-                                "$or": {
+                            "Start": {    
                                     "Kill": {
                                         "Condition": {
                                          "$and": {
                                             "$eq": [
                                                 "$Value.RepositoryId",
-                                                "f97447b3-502c-416e-ad36-0a8ea085ada2"
+                                                "20715eb7-e8b5-443c-a316-fa1edd0954e0"
                                             ],
                                             "$eq": [
                                                 "$Value.KillMethodStrict",
@@ -1311,17 +1309,77 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                                         "Condition": {
                                             "$and": {
                                                "$eq": [
-                                                   "$Value.IsTarget",
-                                                   true
+                                                   "$Value.setpiece_R_ID",
+                                                   "b44c5367-0f83-4f35-90db-e50ec780e3e8"
                                                ],
                                                "$eq": [
                                                    "$Value.actor_R_ID",
                                                    "20715eb7-e8b5-443c-a316-fa1edd0954e0"
                                                ]
-                                           }
+                                            }
                                            },
                                            "Transition": "Success"
                                     }
+                            }
+                        }
+                    },
+                    "Tags": ["story", "feats"],
+                    "InclusionData": {
+                        "ContractIds": ["d658bdf0-183d-463f-a479-235901912422"]
+                    }
+                },
+                ///target was drowned
+                //add mumbai challenge: Brothers Betrayed kill Flamingo guy in his disguise
+                {
+                    "Id": "29e790f8-e0c2-44a3-bf6d-86a4039bed2c",
+                    "Name": "UI_CHALLENGES_DMP2_MUMBAI_KILLFLAMINGO_NAME",
+                    "ImageName": "images/challenges/DMP2/mumbai_kill_flamingo.jpg",
+                    "Description": "UI_CHALLENGES_DMP2_MUMBAI_KILLFLAMINGO_DESC",
+                    "Rewards": {
+                        "MasteryXP": 2000
+                    },
+                    "Drops": [],
+                    "IsPlayable": true,
+                    "IsLocked": false,
+                    "HideProgression": false,
+                    "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_COMMUNITY",
+                    "Icon": "challenge_category_feats",
+                    "LocationId": "LOCATION_PARENT_MUMBAI",
+                    "ParentLocationId": "LOCATION_PARENT_MUMBAI",
+                    "Type": "contract",
+                    "DifficultyLevels": [],
+                    "OrderIndex": 10000,
+                    "XpModifier": {},
+                    "RuntimeType": "Hit",
+                    "Definition": {
+                        "Scope": "session",
+                        "States": {
+                            "Start": {
+                                    "Disguise": {
+                                        "Condition": {
+                                            "$eq": [
+                                                "$Value",
+                                                "124d145e-469e-485d-a628-ced82ddf1b75"
+                                            ]
+                                        },
+                                        "Transition": "KillBrother"
+                                    }     
+                            },
+                            "KillBrother": {
+                                "Kill": {
+                                    "Condition": {
+                                        "$and": {
+                                           "$eq": [
+                                               "$Value.RepositoryId",
+                                               "f883767d-c599-40bc-83d5-5c003a5350cd"
+                                           ],
+                                           "$eq": [
+                                               "$Value.OutfitRepositoryId",
+                                               "124d145e-469e-485d-a628-ced82ddf1b75"
+                                           ]
+                                       }
+                                       },
+                                       "Transition": "Success"
                                 }
                             }
                         }
@@ -1331,7 +1389,6 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
                         "ContractIds": ["d658bdf0-183d-463f-a479-235901912422"]
                     }
                 }
-                ///target was drowned
     ]
     module.exports = function DMP2n(controller) {
         if (!controller.smf.modIsInstalled ("Dinozafr.DMP2")) {
@@ -1340,6 +1397,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
         }
         contracts.forEach((contract) => {
             controller.addMission(contract)
+            controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
         })
         const DMP2 = {
             Name: "UI_MENU_PAGE_DMP2_TITLE",
