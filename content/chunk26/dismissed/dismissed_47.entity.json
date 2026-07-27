@@ -1,0 +1,96 @@
+{
+	"tempHash": "00557D189AE63A6E",
+	"tbluHash": "00D68214AE47A665",
+	"rootEntity": "feedab1041a80cb3",
+	"entities": {
+		"feedab1041a80cb3": {
+			"parent": null,
+			"name": "DialogLine",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"inputCopying": {
+				"Start": {
+					"Start": [
+						"feedc841ac29d18b"
+					]
+				}
+			},
+			"propertyAliases": {
+				"47": [
+					{
+						"originalProperty": "m_rCharacter",
+						"originalEntity": "feedc841ac29d18b"
+					}
+				]
+			}
+		},
+		"feedc841ac29d18b": {
+			"parent": "feedab1041a80cb3",
+			"name": "dr6184_officer47cellguards_47_001_short",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/dialogline.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dialogline.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pAudioEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00040C2296723282",
+						"flag": "5F"
+					}
+				},
+				"m_rCharacter": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			}
+		},
+		"feed6cdedd6e119e": {
+			"parent": "feedab1041a80cb3",
+			"name": "dr6184_officer47cellguards_47_001_short_DIALOGCONDITION",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/dialoglinecondition.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dialoglinecondition.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rTarget": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc841ac29d18b"
+				},
+				"m_fTimeOffset": {
+					"type": "float32",
+					"value": 0
+				}
+			},
+			"outputCopying": {
+				"OnTrue": {
+					"OnDone": [
+						"feedab1041a80cb3"
+					]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

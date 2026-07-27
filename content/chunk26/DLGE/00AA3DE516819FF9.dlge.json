@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23755_submarine_47excusemeguard.sweetdialog?/dr23755_submarine_47excusemeguard_47_001.sweetdialogitem].pc_dialogevent",
+    "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+    "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+    "rootContainer": {
+        "type": "WavFile",
+        "wavName": "dr23755_submarine_47excusemeguard_47_001",
+        "soundtag": "In-world_Maincharacter",
+        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23755_submarine_47excusemeguard_47_001.wav].pc_wes",
+        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23755_submarine_47excusemeguard_47_001.animset].pc_animset",
+        "languages": {
+            "en": "//(0,30)\\\\Excuse me? I'm ready to get back to work.",
+            "fr": "//(0,30)\\\\Excusez-moi ? Je suis prêt à me remettre au travail.",
+            "it": "//(0,30)\\\\Scusami? Sono pronto a tornare al lavoro.",
+            "de": "//(0,0.902)\\\\Entschuldigung?//(0.902,5.57108)\\\\Ich wäre dann bereit, mich wieder an die Arbeit zu machen.",
+            "es": "//(0,30)\\\\¿Disculpa? Estoy listo para volver al trabajo.",
+            "ru": "//(0,30)\\\\Прошу прощения? Я готов вернуться к работе.",
+            "cn": "//(0,30)\\\\打扰了。我准备好回去干活了。",
+            "tc": "//(0,30)\\\\打擾了。我準備好回去幹活了。",
+            "jp": "//(0,30)\\\\あの、すみません。仕事をしに戻ってきました。"
+        }
+    }
+}

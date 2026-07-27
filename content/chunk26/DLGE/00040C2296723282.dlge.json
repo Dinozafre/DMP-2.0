@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "00040C2296723282",
+    "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+    "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+    "rootContainer": {
+        "type": "WavFile",
+        "wavName": "dr6184_officer47cellguards_47_001",
+        "soundtag": "In-world_Maincharacter",
+        "defaultWav": "00B11BF6B82FDFA8",
+        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/marrakech/6000_coup/6000_story/dr6184_officer47cellguards_47_001.animset].pc_animset",
+        "languages": {
+            "en": "//(0,30)\\\\You're dismissed.",
+            "fr": "//(0,30)\\\\Tu peux partir.",
+            "it": "//(0,30)\\\\Puoi andare.",
+            "de": "//(0,30)\\\\Sie können gehen.",
+            "es": "//(0,30)\\\\Vete..",
+            "ru": "//(0,30)\\\\Ты свободен.",
+            "cn": "//(0,30)\\\\解散",
+            "tc": "//(0,30)\\\\解散",
+            "jp": "//(0,30)\\\\行っていい"
+        }
+    }
+}

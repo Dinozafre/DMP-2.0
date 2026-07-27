@@ -1,0 +1,127 @@
+{
+	"tempHash": "009BF0761A5FFF0D",
+	"tbluHash": "00337C478D3472EA",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"feedf57c98122d68": {
+			"parent": "fffffffffffffffe",
+			"name": "Change Outfits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed4578a911e840": {
+			"parent": "fffffffffffffffe",
+			"name": "Escort target",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"events": {
+				"MeetingStart": { "LeaveTarget": [] },
+				"MeetingDone": { "PickupOnTarget": [] }
+			}
+		},
+		"feedbf34708ced0b": {
+			"parent": "fffffffffffffffe",
+			"name": "NPCs",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "ca710d3abc5fff1e",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "410f7af1d45d41fe",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "3fc4479a8aca8bb3",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "4f4799a2c5bb6618",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "0e1b1ddbc3195f27",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "feed6d5d74bdc846",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feedd49ae6345d6d",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype"
+				},
+				{
+					"ref": "feed84d5b2c5f283",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "feed29973f060889",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed7e40640da60f",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype"
+						},
+						{
+							"ref": "feede79d3acd6690",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9a85bae66068f686",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_nOutfitVariation": { "type": "int32", "value": 14 }
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_beaver.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
