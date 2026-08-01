@@ -241,6 +241,10 @@
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_DELGADO"
 				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0e9605f097d6"]
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -665,6 +669,10 @@
 					"value": "Richard Wilson"
 				},
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0e9605f097d6"]
+				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_JOB_COCAGRD06"
@@ -1555,6 +1563,24 @@
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["cafe64a3152ffa28", "cafe9788afff720d"]
+				},
+				"m_aTargetOffsets": {
+					"type": "TArray<SVector3>",
+					"value": []
+				},
+				"m_fSpeedUpDistance": { "type": "float32", "value": 10 },
+				"m_fMaxTargetDistance": { "type": "float32", "value": 5 },
+				"m_bEscortsReactToDistactions": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fMaxDistanceToIntermediatesDuringEscort": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_fTargetPathOffsetMax": {
+					"type": "float32",
+					"value": 2
 				},
 				"m_rVIPController": {
 					"type": "SEntityTemplateReference",
@@ -2809,6 +2835,10 @@
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_SOFTGRD01"
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0e9605f097d6"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -4585,20 +4615,6 @@
 		{
 			"entities": [
 				{
-					"ref": "d6670d5218141740",
-					"externalScene": "[assembly:/_pro/scenes/missions/colombia/colombia_outfits.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_bHeroDisguiseAvailable": {
-					"type": "bool",
-					"value": false
-				}
-			}
-		},
-		{
-			"entities": [
-				{
 					"ref": "00485fbcd756cbe9",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				},
@@ -4683,110 +4699,6 @@
 		{
 			"entities": [
 				{
-					"ref": "5c28ebd47ae10916",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_AllowedProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						{
-							"ref": "3d284abb264169d1",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "6cb9e15fbd6bb265",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "8de2751041e3cd89",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						}
-					]
-				},
-				"m_KeeperProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						{
-							"ref": "3d284abb264169d1",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "6cb9e15fbd6bb265",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "8de2751041e3cd89",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "c41cbf99f62eec7c",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "a9a6c874dda5189d",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						}
-					]
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "dd2f72e21cb783e9",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_AllowedProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						{
-							"ref": "a9a6c874dda5189d",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "7ac6388c56132c41",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "c114d008ab770f18",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "3865d99337a069f3",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						}
-					]
-				},
-				"m_KeeperProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						{
-							"ref": "a9a6c874dda5189d",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "7ac6388c56132c41",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "c114d008ab770f18",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						},
-						{
-							"ref": "3865d99337a069f3",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						}
-					]
-				}
-			}
-		},
-		{
-			"entities": [
-				{
 					"ref": "8594dad3af9c1861",
 					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 				},
@@ -4820,142 +4732,6 @@
 				"m_InitialState": {
 					"type": "IHM5Door.EInitialState",
 					"value": "IS_CLOSED"
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "0655697ba4a7a760",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_nOutfitVariation": { "type": "int32", "value": 6 },
-				"m_sActorName": { "type": "ZString", "value": "Jonh Don" }
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "b44b5c847279de0a",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_nOutfitVariation": { "type": "int32", "value": 11 }
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "d5fa781d7f2eb12a",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				},
-				{
-					"ref": "fe324bdc91580499",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				},
-				{
-					"ref": "acbdab069205335b",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_aEnableConditions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "66c86a13a1b8868b",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_InventoryItemKeys": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						{
-							"ref": "e71b9771731df86e",
-							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-						}
-					]
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "05c8103ad39d8186",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {}
-		},
-		{
-			"entities": [
-				{
-					"ref": "7198b2f45f103e7c",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -97.02625,
-							"y": 11.745089,
-							"z": 7.600004
-						}
-					}
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "53b8a553a707c9ef",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -97.33224,
-							"y": 11.774953,
-							"z": 7.877893
-						}
-					}
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "1ac020dcb8638db3",
-					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -97.589035,
-							"y": 11.801712,
-							"z": 7.600012
-						}
-					}
 				}
 			}
 		}
